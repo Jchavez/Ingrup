@@ -1,7 +1,81 @@
-header{
-	min-height: 45px;
-	height: auto !important;
-	height: 45px;
-	text-align: center;
-	padding: 15px 0;
+html,body{
+	color: #000;
 }
+.textCenter{
+	text-align: center;
+}
+
+#wrapper_header{
+	width: 100%;
+	min-height: 77px;
+	height: auto !important;
+	height: 77px;
+	text-align: center;
+	padding: 18px 0;
+}
+
+
+#wrapper_slider{
+	width: 100%;
+}
+	#wrapper_slider img{
+		width: 100%;
+	}
+
+#wrapper_menu{
+	width: 100%;
+	height: auto !important;
+	background: #009ee3;
+}
+	.navbar{
+		margin-bottom: 0;
+		border-radius: 0;
+	}
+	.navbar-default {
+		background: none;
+		border: none;
+	}
+	.navbar-default .navbar-nav>li>a {
+		color: #fff;
+	}
+
+	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+		color: #fff;
+		background-color: #acacac;
+	}
+	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+		color: #fff;
+		background-color: #acacac;
+	}
+	.navbar-default .navbar-brand {
+		color: #fff;
+	}
+	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+		color: #acacac;
+		background-color: transparent;
+	}
+	.nav>li>a{
+		padding: 15px 25px;
+	}
+
+
+#wrapper_content{
+	width: 100%;
+	padding: 32px 0;
+}
+
+
+#wrapper_user1{
+	width: 100%;
+	background: #f3f3f3;
+	padding: 16px 0;
+	text-align: center;
+}
+	#wrapper_user1 strong{
+		font-size: 16px; 
+		font-weight: bold;
+	}
+		#wrapper_user1 strong em{
+			color: #009ee3;
+			font-style: normal;
+		}
