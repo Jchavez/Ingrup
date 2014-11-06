@@ -63,27 +63,32 @@ Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, 
 				<div role="tabpanel" class="tab-pane" id="nuestraFilosofia">
 					<strong>Misi&oacute;n</strong>
 					<p>
-Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+						Proveemos soluciones de empaque a nivel regional, mediante tecnología de punta y un equipo humano competente y comprometido, generando beneficios para nuestros clientes, inversionistas y colaboradores.
+					</p>
+					<p>
+						Estamos comprometidos con el medio ambiente.
 					</p>
 					<br/>
 
 					<strong>Visi&oacute;n</strong>
 					<p>
-Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+						Ser el proveedor más confiable e innovador de empaques.
 					</p>
 					<br/>
 
 					<strong>Valores</strong>
 					<p>
-Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+						Integridad, Confianza, Compromiso
 					</p>
 					<br/>
 
 					<strong>Proposito</strong>
 					<p>
-Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+					“Agregar valor a las marcas de nuestros clientes
+					con soluciones de empaques confiables,
+					innovadores y amigables con el ambiente”.
 					</p>
-					
+
 				</div>
 			</div>
 		</div>

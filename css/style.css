@@ -139,6 +139,24 @@ video {
 }
 
 
+#wrapper_map{
+	width: 100%;
+	position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+	#wrapper_map iframe,
+	#wrapper_map object,
+	#wrapper_map embed {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    width: 100%;
+	    height: 100%;
+	}
+
+
 /*********Small screens**********/
 /* Define mobile styles */
 @media only screen {} 

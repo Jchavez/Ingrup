@@ -11,16 +11,5 @@
 	</div>
 	<!-- end - CONTENT -->
 
-	<!-- MENU INNER-->
-	<div id="wrapper_content_inner">
-		<div class="container">
-		
-		</div>
-	</div>
-	<!-- end - MENU INNER-->
-
-
-
-	<!-- end - MENU -->
 
 <?php require("inc/footer.php");?>
