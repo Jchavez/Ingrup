@@ -61,9 +61,29 @@ Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, 
 					</p>
 				</div>
 				<div role="tabpanel" class="tab-pane" id="nuestraFilosofia">
+					<strong>Misi&oacute;n</strong>
 					<p>
 Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
 					</p>
+					<br/>
+
+					<strong>Visi&oacute;n</strong>
+					<p>
+Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+					</p>
+					<br/>
+
+					<strong>Valores</strong>
+					<p>
+Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+					</p>
+					<br/>
+
+					<strong>Proposito</strong>
+					<p>
+Pellentesque a viverra enim. Nunc justo odio, rhoncus posuere sollicitudin vel, viverra non augue. Integer ultricies tellus lectus. Aenean nulla enim, egestas eu turpis in, maximus pretium tortor. Pellentesque eget scelerisque mauris, eget lobortis mauris. Proin consequat massa quis eros pulvinar, vitae molestie velit sollicitudin. Vivamus sollicitudin, libero vel dignissim sodales, orci sapien placerat nisl, eu pharetra enim nunc eu libero. Praesent sed dui velit. Aenean suscipit feugiat volutpat. Nulla porttitor risus vel ligula tempus, ac malesuada justo interdum. Sed eget venenatis massa. Nunc pretium ac felis id sollicitudin.
+					</p>
+					
 				</div>
 			</div>
 		</div>
