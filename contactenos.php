@@ -16,7 +16,12 @@
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
-					<form role="form" action="lib/reCAPTCHA/verify.php">
+					<script type= "text/javascript">
+					var RecaptchaOptions = {
+						theme: 'white'
+					};
+					</script>
+					<form role="form" method="post" action="lib/reCAPTCHA/verify.php">
 						<div class="form-group">
 							<label>De:</label>
 							<input type="text" class="form-control" id="" placeholder="Nombre Completo">
