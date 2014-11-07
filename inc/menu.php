@@ -20,7 +20,7 @@
 							<li class=""><a href="productos.php">Productos</a></li>
 							<li class=""><a href="trabajeConNosotros.php">Trabaje con Nosotros</a></li>
 							<li class=""><a href="sostenibilidad.php">Sostenibilidad</a></li>
-							<li class=""><a href="noticias.php">Noticias</a></li>
+							<!--<li class=""><a href="noticias.php">Noticias</a></li>-->
 							<li class=""><a href="contactenos.php">Cont&aacute;ctenos</a></li>
 						</ul>
 						<form class="navbar-form navbar-left" role="search">
