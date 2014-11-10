@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(51) 7118259</td>
-								<td><span class="glyphicon glyphicon-home"></span> Calle Dean Valdivia 148, Edificio Platinum Plaza 1, Piso 11, Lima 27, Perú</td>
+								<td><span class="glyphicon glyphicon-home"></span> Calle Dean Valdivia 148, Edificio Platinum Plaza 1, <br/> &nbsp; &nbsp;&nbsp;Piso 11, Ciudad de Lima, Perú</td>
 							</tr>
 						</tbody>
 					</table>

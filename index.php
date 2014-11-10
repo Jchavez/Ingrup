@@ -59,25 +59,17 @@ Nuestra experiencia abarca más de 100 marcas en 8 países.</p>
 			<div class="row">
 				<div class="col-xs-6 col-md-3">
 					<a href="#" class="thumbnail">
-						<img src="img/thumbnails/300x200/etiquetado.jpg" alt="Etiquetado Ingrup">
+						<img src="img/thumbnails/300x200/empaques.jpg" alt="Etiquetado Ingrup">
 						<div class="caption">
-							ETIQUETADO
+							EMPAQUES
 						</div>
 					</a>
 				</div>
 				<div class="col-xs-6 col-md-3">
 					<a href="#" class="thumbnail">
-						<img src="img/thumbnails/300x200/embalaje.jpg" alt="Etiquetado Ingrup">
+						<img src="img/thumbnails/300x200/embalajes.jpg" alt="Etiquetado Ingrup">
 						<div class="caption">
-							EMBALAJE
-						</div>
-					</a>
-				</div>
-				<div class="col-xs-6 col-md-3">
-					<a href="#" class="thumbnail">
-						<img src="img/thumbnails/300x200/reciclaje.jpg" alt="Etiquetado Ingrup">
-						<div class="caption">
-							RECICLAJE
+							EMBALAJES
 						</div>
 					</a>
 				</div>
@@ -86,6 +78,14 @@ Nuestra experiencia abarca más de 100 marcas en 8 países.</p>
 						<img src="img/thumbnails/300x200/impresiones.jpg" alt="Etiquetado Ingrup">
 						<div class="caption">
 							IMPRESIONES
+						</div>
+					</a>
+				</div>
+				<div class="col-xs-6 col-md-3">
+					<a href="#" class="thumbnail">
+						<img src="img/thumbnails/300x200/reciclaje.jpg" alt="Etiquetado Ingrup">
+						<div class="caption">
+							RECICLAJE
 						</div>
 					</a>
 				</div>

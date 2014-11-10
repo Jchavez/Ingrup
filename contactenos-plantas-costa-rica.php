@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(506) 2265-6500 / +(506) 2265-8138</td>
-								<td><span class="glyphicon glyphicon-home"></span> San Joaquin de Flores, Heredia, Costa Rica</td>
+								<td><span class="glyphicon glyphicon-home"></span> De la Cervecería Costa Rica al Este 1 Km, <br/>&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Heredia, Costa Rica</td>
 							</tr>
 						</tbody>
 					</table>

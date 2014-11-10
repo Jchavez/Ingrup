@@ -17,7 +17,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2326-5700</td>
-								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle zona 12, Ciudad de Guatemala</td>
+								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle, zona 12, Ciudad de Guatemala, Guatemala</td>
 							</tr>
 						</tbody>
 					</table>

@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(505) 2251-3964</td>
-								<td><span class="glyphicon glyphicon-home"></span> Carretera Norte Km 5 1/2. Parque Industrial Portezuelo, de la Aguja 1/2 Cuadra al Este, 3 cuadras al sur 1/2 al este. Nave #37. Managua Nicaragua.</td>
+								<td><span class="glyphicon glyphicon-home"></span> Carretera Norte Km 5 1/2. Parque Industrial<br/>&nbsp;&nbsp;&nbsp; Portezuelo, de la Aguja 1/2 Cuadra al Este, <br/>&nbsp;&nbsp;&nbsp;&nbsp;3 cuadras al sur 1/2 al este. Nave #37, <br/>&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Managua, Nicaragua</td>
 							</tr>
 						</tbody>
 					</table>

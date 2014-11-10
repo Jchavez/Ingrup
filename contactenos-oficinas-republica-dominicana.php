@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(809) 566-8278</td>
-								<td><span class="glyphicon glyphicon-home"></span> Calle Luis F. Thomen No. 110, Torre Ejecutiva Gapo, Suite 204, Evaristo Morales, Santo Domingo</td>
+								<td><span class="glyphicon glyphicon-home"></span> Calle Luis F. Thomen No. 110, <br/> &nbsp; &nbsp;&nbsp;Torre Ejecutiva Gapo, Suite 204, Evaristo Morales, <br/> &nbsp; &nbsp;&nbsp;Ciudad de Santo Domingo, <br/> &nbsp; &nbsp;&nbsp;Rep&uacute;blica de Dominicana</td>
 							</tr>
 						</tbody>
 					</table>

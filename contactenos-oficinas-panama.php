@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(507) 831-5568</td>
-								<td><span class="glyphicon glyphicon-home"></span> Calle 50, PH Torre Global Bank, Piso 32, Of.: 3203. Ciudad de Panamá, Panamá</td>
+								<td><span class="glyphicon glyphicon-home"></span> Calle 50, PH Torre Global Bank, Piso 32, Of.: 3203. <br/> &nbsp; &nbsp;&nbsp;Ciudad de Panamá, Panamá</td>
 							</tr>
 						</tbody>
 					</table>

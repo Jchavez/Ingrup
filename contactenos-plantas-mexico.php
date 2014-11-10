@@ -8,7 +8,7 @@
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
-					<h2>Empaques Irapuato</h2>
+					<h2>Empaques de Irapuato, S.A. De C.V</h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -18,12 +18,12 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><span class="glyphicon glyphicon-earphone"></span> +(52) (462) 6066444 / +(52) (462) 6066445 / +(52) (462) 6066446 / +(52) (462) 6259048</td>
-								<td><span class="glyphicon glyphicon-home"></span> Carretera Irapuato Abasolo Km. 6,  Purísima del Jardín CP 36557, Irapuato, Guanajuato - México</td>
+								<td><span class="glyphicon glyphicon-earphone"></span> +(52) (462) 6066444 / +(52) (462) 6066445 <br/>&nbsp;&nbsp;&nbsp;&nbsp; +(52) (462) 6066446 / +(52) (462) 6259048</td>
+								<td><span class="glyphicon glyphicon-home"></span> Carretera Irapuato Abasolo Km. 6,  <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Purísima del Jardín, CP36557, Irapuato, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Guanajuato, M&eacute;xico</td>
 							</tr>
 						</tbody>
 					</table>
-					<h2>CemsaPack</h2>
+					<h2>CemsaPack, S.A. de C.V</h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -34,7 +34,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(52) 728 - 2840193 y 98</td>
-								<td><span class="glyphicon glyphicon-home"></span> Rancho la Bomba Parque Industrial Lerma. Lerma de Villada 52000, México.</td>
+								<td><span class="glyphicon glyphicon-home"></span> Parque Industrial La Bomba, número 103 y 105 <br/>&nbsp;&nbsp;&nbsp;&nbsp; Bodegas 2 y 3, CP52000, Lerma, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de México, México</td>
 							</tr>
 						</tbody>
 					</table>

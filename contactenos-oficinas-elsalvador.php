@@ -8,7 +8,7 @@
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
-					<h2>EPP El Salvador</h2>
+					<h2>Empaques y Productos de Pl&aacute;stico, S.A. de C.V, <br/>El Salvador</h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(503) 2278-7918</td>
-								<td><span class="glyphicon glyphicon-home"></span> Boulevard Vijosa, Edificio Salaverría Cáceres, Bodegas 1, 2 y 3, Ciudad Merliot Antiguo Cuscatlan - El Salvador</td>
+								<td><span class="glyphicon glyphicon-home"></span> Boulevard Vijosa, Edificio Salaverría Cáceres,<br/>&nbsp;&nbsp;&nbsp; Bodegas 1,2 y 3, Ciudad Merliot Antiguo Cuscatlan,<br/>&nbsp;&nbsp;&nbsp; El Salvador</td>
 							</tr>
 						</tbody>
 					</table>

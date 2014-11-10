@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2310-5200 / +(502) 2442-0122</td>
-								<td><span class="glyphicon glyphicon-home"></span> Calzada Atanasio Tzul 22-41, Zona 12, Guatemala</td>
+								<td><span class="glyphicon glyphicon-home"></span> Calzada Atanasio Tzul 22-41, zona 12, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Guatemala, Guatemala</td>
 							</tr>
 						</tbody>
 					</table>
@@ -34,7 +34,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2326-5700</td>
-								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle zona 12, Ciudad de Guatemala</td>
+								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle, zona 12, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Guatemala, Guatemala</td>
 							</tr>
 						</tbody>
 					</table>
@@ -49,7 +49,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span>+(502) 2326-5600</td>
-								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle zona 12, Ciudad de Guatemala</td>
+								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle, zona 12, <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Guatemala, Guatemala</td>
 							</tr>
 						</tbody>
 					</table>
