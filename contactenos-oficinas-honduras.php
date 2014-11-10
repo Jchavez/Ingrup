@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(504) 2560-0134 </td>
-								<td><span class="glyphicon glyphicon-home"></span> Colonia Santa Maria, 27 calle S. E, frente a<br/>&nbsp;&nbsp;&nbsp; gasolinera UNO. San Pedro Sula, <br/>&nbsp;&nbsp;&nbsp;&nbsp;Ciudad de Cortes, Honduras. </td>
+								<td><span class="glyphicon glyphicon-home"></span> Colonia Santa Maria, 27 calle S. E, frente a<br/>&nbsp;&nbsp;&nbsp; gasolinera UNO. Ciudad de San Pedro Sula, <br/>&nbsp;&nbsp;&nbsp;&nbsp;Cortes, Honduras. </td>
 							</tr>
 						</tbody>
 					</table>

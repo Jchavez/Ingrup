@@ -15,7 +15,6 @@ function validateEmail(email){
 /*== FORM VALIDATOR ==*/
 
 function checkRequired(){
-
 	//Check if required fields are filled
 	var counter = 0;
 	jQuery("input.required, select.required").each(function(index) {
@@ -23,7 +22,8 @@ function checkRequired(){
 		//Check if empty
 		if(contentField == '' || contentField == null || contentField == '0'){
 			//Change BG style
-			jQuery(this).css({'background-color':'red'});
+			jQuery(this).css({'background-color':'#f2dede'});
+			jQuery(this).css({'color':'#a94442'});
 			//Take the cursor to the first field
 			if(counter == 0){
 				jQuery(this).focus();
@@ -31,14 +31,16 @@ function checkRequired(){
 			counter++;
 		}else{
 			//Reset style
-			jQuery(this).css({'background-color':'#FFFFFF'});
+			jQuery(this).css({'background-color':'#fff'});
+			jQuery(this).css({'color':'#595959'});
 		}
 	});
 
 	//If any field is "not valid"
 	if(counter > 0){
 		//Set this message
-		alert('Los campos de Email y Nombre no pueden estar vacios');
+		$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Los campos no pueden estar vacios</div>');
+		//alert('Los campos no pueden estar vacios');
 		return false;
 	}else{
 		//Reset the error message
@@ -49,43 +51,45 @@ function checkRequired(){
 function checkForm(){
 	one = checkRequired();
 
-	/*
+	
 	
 	jQuery("input.validEmail").each(function(index) {
 		contentField = jQuery(this).val();
 		two = validateEmail(contentField);
 		if(!two){
 			//jQuery('.errMsg').html('Inserte un Email V&aacute;lido');
-			alert('Inserte un email valido');
+			$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Inserte un E-mail v&aacute;lido</div>');
+			//alert('Inserte un E-mail valido');
 		}
 	});
-	*/
-/*
+	
+
 if(one && two){
 	var name = $('#name').val();
 	var email = $('#email').val();
+	var subject = $('#subject').val();
 	var message = $('#message').val();
-			$('#right').html('<div id="response_div"><img src="/images/ajax-loader.gif" /></div>');
-			$.ajax({
-			   type: "POST", 
-			   url: "sendform.php",
-			   data: 'pname='+name+'&pemail='+email+'&pmessage='+message,
-			   success: function(msg){
-				   if(msg){
-					   //alert('¡Gracias!, su mensaje ha sido enviado.');
-   					   clean();
-						 $('.form').html('<div id="response_div">&iexcl;Gracias!, su mensaje ha sido enviado.<br /></div>');
-				   }else{
-						 $('.form').html('<div id="response_div">Su mensaje NO a sido enviado, por favor intente mas tarde.</div>');
-						 //alert('Su mensaje NO a sido enviado, por favor intente mas tarde.');
- 
-				   }
-			   }
-			 });
+
+	$('#contact_form').html('<div id="response_div"><img src="/img/ajax-loader.gif" /></div>');
+	$.ajax({
+	   type: "POST", 
+	   url: "lib/sendform.php",
+	   data: 'pname='+name+'&pemail='+email+'&pmessage='+message,
+	   success: function(msg){
+		   if(msg){
+			   //alert('¡Gracias!, su mensaje ha sido enviado.');
+				 $('#contact_form').html('<div class="alert alert-success" role="alert">&iexcl;Gracias!, su mensaje ha sido enviado.<br /></div>');
+		   }else{
+				 $('#contact_form').html('<div class="alert alert-danger" role="alert">Su mensaje NO a sido enviado, por favor intente mas tarde.</div>');
+				 //alert('Su mensaje NO a sido enviado, por favor intente mas tarde.');
+
+		   }
+	   }
+	 });
 		return true; 
 }else{
 	return false;
 }
-*/
+
 }
 

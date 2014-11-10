@@ -19,7 +19,7 @@
 						<tbody>
 							<tr>
 								<td><span class="glyphicon glyphicon-earphone"></span> +(504) 2670-2220 al 29</td>
-								<td><span class="glyphicon glyphicon-home"></span> Kilometro 13, desvío a residencial Monte Maria, <br/> &nbsp;&nbsp;&nbsp;&nbsp;Dos Caminos, Villanueva, Ciudad de Cortes,<br/> &nbsp;&nbsp;&nbsp;&nbsp;Honduras.</td>
+								<td><span class="glyphicon glyphicon-home"></span> Kilometro 13, desvío a residencial Monte Maria, <br/> &nbsp;&nbsp;&nbsp;&nbsp;Dos Caminos, Ciudad Villanueva, Cortes,<br/> &nbsp;&nbsp;&nbsp;&nbsp;Honduras.</td>
 							</tr>
 						</tbody>
 					</table>

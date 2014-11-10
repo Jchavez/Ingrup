@@ -52,3 +52,6 @@
 		</div>
 	</div>
 </div>	
+
+
+<?php require("_footer.php");?>

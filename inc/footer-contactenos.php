@@ -3,28 +3,28 @@
 			<div class="row">
 				<div class="col-md-1">
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-5" id="contact_form">
 					<script type= "text/javascript">
 					/*var RecaptchaOptions = {
 						theme: 'white'
 					};*/
 					</script>
-					<form role="form" method="post" action="lib/reCAPTCHA/verify.php">
+					<form role="form">
 						<div class="form-group">
 							<label style="float:left;">De:</label>
-							<input type="text" class="form-control" id="" placeholder="Nombre Completo">
+							<input type="text" class="form-control required" id="name" placeholder="Nombre Completo">
 						</div>
 						<div class="form-group">
 							<label style="float:left;">Correo</label>
-							<input type="email" class="form-control" id="" placeholder="persona@dominio.com">
+							<input type="email" class="form-control required validEmail" id="email" placeholder="persona@dominio.com">
 						</div>
 						<div class="form-group">
 							<label style="float:left;">Asunto</label>
-							<input type="text" class="form-control" id="" placeholder="">
+							<input type="text" class="form-control required" id="subject" placeholder="">
 						</div>
 						<div class="form-group">
 							<label style="float:left;">Mensaje</label>
-							<textarea class="form-control" rows="3"></textarea>
+							<textarea class="form-control" rows="3" id="message"></textarea>
 						</div>
 						<div class="form-group">
 							<?php
@@ -35,7 +35,8 @@
 							*/
 							?>
 						</div>
-						<button type="submit" class="btn btn-default">Enviar</button>
+						<input type="button" value="Enviar" class="btn btn-default" onclick="javascript:checkForm();" />
+						<!--<button type="submit" class="btn btn-default">Enviar</button>-->
 					</form>
 				</div>
 				<div class="col-md-5">
@@ -67,3 +68,6 @@
 			</div>
 		</div>
 	</div>
+
+
+<?php require("_footer.php");?>
