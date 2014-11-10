@@ -10,7 +10,27 @@ video {
 .blue{
 	color: #009ee3;
 }
+.thumbnail {
+	display: block;
+	padding: 4px;
+	margin-bottom: 20px;
+	line-height: 1.42857143;
+	background-color: #009ee3;
+	border: none;
+	border-radius: 0px;
+	color: #fff;
+	text-transform: uppercase;
+}
+	.thumbnail .caption {
+		padding: 5px;
+		color: #fff;
+	}
+	a.thumbnail:hover, a.thumbnail:focus, a.thumbnail.active {
+		border-color: #428bca;
+		text-decoration: none;
+	}
 
+/*HEADER*/
 #wrapper_header{
 	width: 100%;
 	min-height: 77px;
@@ -19,15 +39,18 @@ video {
 	text-align: center;
 	padding: 18px 0;
 }
+/*end - HEADER*/
 
-
+/*SLIDER*/
 #wrapper_slider{
 	width: 100%;
 }
 	#wrapper_slider img{
-		/*width: 100%;*/
+		width: 100%;
 	}
+/*end - SLIDER*/
 
+/*MENU*/
 #wrapper_menu{
 	width: 100%;
 	height: auto !important;
@@ -42,29 +65,28 @@ video {
 		background: none;
 		border: none;
 	}
-	.navbar-default .navbar-nav>li>a {
-		color: #fff;
-	}
+		.navbar-default .navbar-nav>li>a {
+			color: #fff;
+		}
 
-	.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-		color: #fff;
-		background-color: #acacac;
-	}
-	.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-		color: #fff;
-		background-color: #acacac;
-	}
+		.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+			color: #fff;
+			background-color: #acacac;
+		}
+		.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+			color: #fff;
+			background-color: #acacac;
+		}
+		.nav>li>a{
+			padding: 15px 25px;
+		}
 	.navbar-default .navbar-brand {
 		color: #fff;
 	}
-	.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-		color: #acacac;
-		background-color: transparent;
-	}
-	.nav>li>a{
-		padding: 15px 25px;
-	}
-
+		.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+			color: #acacac;
+			background-color: transparent;
+		}
 	.navbar-toggle,.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
 		background: #acacac;
 		border: 1px solid #acacac; 
@@ -75,13 +97,12 @@ video {
 	.navbar-default .navbar-toggle {
 		border: 1px solid #acacac; 
 	}
-
 	.navbar-brand{
 		display: none;
 	}
+/*end - MENU*/
 
-
-
+/*USER*/
 #wrapper_user1{
 	width: 100%;
 	background: #f3f3f3;
@@ -96,37 +117,52 @@ video {
 			color: #009ee3;
 			font-style: normal;
 		}
+	#wrapper_user1 p strong{
+		font-size: 14px; 
+		font-weight: bold;
+		text-decoration: underline;
+	}
+/*end - USER*/
 
 
 #wrapper_content{
 	width: 100%;
 	padding: 16px 0;
 }
+	#wrapper_content p{
+		text-align: justify;
+	}
+	#wrapper_content ul{
 
-#wrapper_content_inner{
+	}
+	#wrapper_content ul li{
+		margin: 8px 0;
+	}
+
+/*CONTENT TABS*/
+#wrapper_content_tabs{
 	width: 100%;
 	height: auto !important;
 	background: #fff;
 	border-top: 1px solid #208fc0;
 	border-bottom: 1px solid #208fc0;
-	text-transform: uppercase;
 	margin: 0 0 16px 0;
 }
-
-	#wrapper_content_inner .nav{
+	#wrapper_content_tabs .nav{
 		margin: 0 auto;
 		display: table;
 	}
-
-	#wrapper_content_inner p{
+	#wrapper_content_tabs p{
 		margin: 0;
-		text-transform: capitalize;
+		text-transform: normal;
+		text-align: justify;
 	}
-
-	#wrapper_content_inner .tab-content{
+	#wrapper_content_tabs .tab-content{
 		padding: 16px;
 	}
+/*end  - TABS*/
 
+/*FOOTER*/
 #wrapper_footer{
 	width: 100%;
 	background: #009ee3;
@@ -135,26 +171,31 @@ video {
 	height: 150px;
 	color: #fff;
 	padding: 16px 0;
-	text-align: center;
+	
 }
-
-
-#wrapper_map{
-	width: 100%;
-	position: relative;
-    height: 400px;
-    overflow: hidden;
-}
-
-	#wrapper_map iframe,
-	#wrapper_map object,
-	#wrapper_map embed {
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    width: 100%;
-	    height: 100%;
+	#wrapper_footer p{
+		text-align: center;
 	}
+	#wrapper_footer a{
+		color: #fff;
+		text-decoration: underline;
+	}
+	#wrapper_map{
+		width: 100%;
+		position: relative;
+	    height: 400px;
+	    overflow: hidden;
+	}
+		#wrapper_map iframe,
+		#wrapper_map object,
+		#wrapper_map embed {
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		}
+/*end - FOOTER*/
 
 
 /*********Small screens**********/
@@ -164,6 +205,9 @@ video {
 @media only screen and (max-width: 40em) {
 	.navbar-brand{
 		display: block;
+	}
+	h1{
+		font-size: 24px;	
 	}
 } 
 
@@ -183,8 +227,6 @@ video {
 
 
 
-
-
 /*********Large screens**********/
 /* min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) { } 
@@ -193,15 +235,11 @@ video {
 
 
 
-
-
 /*********XLarge screens**********/
 /* min-width 1441px, xlarge screens */
 @media only screen and (min-width: 90.063em) { } 
 /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 @media only screen and (min-width: 90.063em) and (max-width: 120em) { } 
-
-
 
 
 

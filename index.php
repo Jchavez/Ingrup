@@ -9,18 +9,22 @@
 				<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				<li data-target="#carousel-example-generic" data-slide-to="3"></li>
 			</ol>
 
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="img/sliders/sliderCompradora.png" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider1.jpg" alt="INGRUP">
 				</div>
 				<div class="item">
-					<img src="img/sliders/sliderManos.png" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider2.png" alt="Mas de 100 Marcas nos han confiado sus productos">
 				</div>
 				<div class="item">
-					<img src="img/sliders/sliderMarcas.png" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider3.png" alt="Mas de 100 Marcas nos han confiado sus productos">
+				</div>
+				<div class="item">
+					<img src="img/sliders/home/slider4.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">
 				</div>
 			</div>
 
@@ -41,16 +45,15 @@
 <?php require("inc/menu.php");?>
 <?php require("inc/user1.php");?>
 	
-
-
 	<!-- CONTENT -->
 	<div id="wrapper_content">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<h2 class="textCenter">40 AÑOS DE CALIDAD ININTERRUMPIDA</h2>
-					<p class="textCenter">Somos la compañía líder en el mercado de los empaques. 
-Nuestra experiencia abarca más de 100 marcas en 8 países.</p>
+					<p style="text-align:center;">Somos la compañía líder en el mercado de los empaques. <br/>
+Nuestra experiencia abarca más de 100 marcas en 8 países.</p> 
+					<br/>
 				</div>
 			</div>
 			<div class="row">
@@ -87,26 +90,34 @@ Nuestra experiencia abarca más de 100 marcas en 8 países.</p>
 					</a>
 				</div>
 			</div>
-
+			<!--
 			<div class="row">
-				<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-md-12">
 					<h1>Lanzamiento</h1>
 					<p>
 						El pasado 4 de noviembre se llevó a cabo el lanzamiento oficial de la corporación INGRUP, que incluye 11 empresas cuya línea de negocios abarca desde el embalaje de plásticos, hasta reciclaje de materiales de todo tipo. 
 					</p>
+					<p>
+						Durante el evento, que contó con la presencia del Excelentísimo Presidente de la República, se presentaron de manera oficial la visión, el propósito, la misión y los valores centrales de INGRUP como empresa.  Durante el evento, que contó con la presencia del Excelentísimo Presidente de la República, se presentaron de manera oficial la visión, el propósito, la misión y los valores centrales de INGRUP como empresa. 
+					</p>
 				</div>
+				
 				<div class="col-xs-12 col-md-4">
+					
 					<video width="320" height="240" controls>
-						<source src="media/ingrup-1.mp4" type="video/mp4">
+						<applet></applet>source src="media/ingrup-1.mp4" type="video/mp4">
 						Your browser does not support the video tag.
 					</video>
+
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<p>
 						Durante el evento, que contó con la presencia del Excelentísimo Presidente de la República, se presentaron de manera oficial la visión, el propósito, la misión y los valores centrales de INGRUP como empresa.  Durante el evento, que contó con la presencia del Excelentísimo Presidente de la República, se presentaron de manera oficial la visión, el propósito, la misión y los valores centrales de INGRUP como empresa. 
 					</p>
 				</div>
+				
 			</div>
+			-->
 
 		</div>
 	</div>
