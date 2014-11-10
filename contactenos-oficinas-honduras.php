@@ -18,7 +18,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2560-0134</td>
+								<td><span class="glyphicon glyphicon-earphone"></span> +(504) 2560-0134</td>
 								<td><span class="glyphicon glyphicon-home"></span> 27 calle SE., frente a Gasolinera Shell "Zorzales", Colonia Santa María. San Pedro Sula, Honduras.</td>
 							</tr>
 						</tbody>

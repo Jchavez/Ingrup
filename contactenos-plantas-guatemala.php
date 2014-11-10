@@ -8,7 +8,7 @@
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
-					<h2>Proveedora</h2>
+					<h2>Proveedora de Servicios</h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -23,7 +23,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<h2>Inyectores</h2>
+					<h2>Inyectores de Pl&aacute;stico</h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -33,12 +33,12 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2477-4714 / +(502) 2326-5700</td>
+								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2326-5700</td>
 								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle zona 12, Ciudad de Guatemala</td>
 							</tr>
 						</tbody>
 					</table>
-					<h2>CEMSA</h2>
+					<h2>Central de Empaques</h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>

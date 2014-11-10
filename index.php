@@ -18,10 +18,10 @@
 					<img src="img/sliders/home/slider1.jpg" alt="INGRUP">
 				</div>
 				<div class="item">
-					<img src="img/sliders/home/slider2.png" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider2.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">
 				</div>
 				<div class="item">
-					<img src="img/sliders/home/slider3.png" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider3.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">
 				</div>
 				<div class="item">
 					<img src="img/sliders/home/slider4.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">

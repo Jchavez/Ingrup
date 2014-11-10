@@ -18,7 +18,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2265-6500 / +(502) 2265-8138</td>
+								<td><span class="glyphicon glyphicon-earphone"></span> +(506) 2265-6500 / +(506) 2265-8138</td>
 								<td><span class="glyphicon glyphicon-home"></span> San Joaquin de Flores, Heredia, Costa Rica</td>
 							</tr>
 						</tbody>

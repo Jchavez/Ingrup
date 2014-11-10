@@ -33,7 +33,7 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><span class="glyphicon glyphicon-earphone"></span> 728 - 2840193 y 98</td>
+								<td><span class="glyphicon glyphicon-earphone"></span> +(52) 728 - 2840193 y 98</td>
 								<td><span class="glyphicon glyphicon-home"></span> Rancho la Bomba Parque Industrial Lerma. Lerma de Villada 52000, México.</td>
 							</tr>
 						</tbody>

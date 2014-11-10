@@ -1,7 +1,7 @@
 <?php require("inc/header.php");?>
 <?php require("inc/menu.php");?>
 	
-	<img src="img/headerTrabajeConNosotros.png" class="img-responsive">
+	<img src="img/headerTrabajeConNosotros.jpg" class="img-responsive">
 	<!-- CONTENT -->
 	<div id="wrapper_content">
 		<div class="container">
