@@ -4,39 +4,42 @@
 				<div class="col-md-1">
 				</div>
 				<div class="col-md-5" id="contact_form">
-					<script type= "text/javascript">
-					/*var RecaptchaOptions = {
-						theme: 'white'
-					};*/
-					</script>
 					<form role="form">
 						<div class="form-group">
-							<label style="float:left;">De:</label>
+							<label>De: (*)</label>
 							<input type="text" class="form-control required" id="name" placeholder="Nombre Completo">
 						</div>
 						<div class="form-group">
-							<label style="float:left;">Correo</label>
+							<label>Correo: (*)</label>
 							<input type="email" class="form-control required validEmail" id="email" placeholder="persona@dominio.com">
 						</div>
 						<div class="form-group">
-							<label style="float:left;">Asunto</label>
+							<label>Asunto: (*)</label>
 							<input type="text" class="form-control required" id="subject" placeholder="">
 						</div>
 						<div class="form-group">
-							<label style="float:left;">Mensaje</label>
-							<textarea class="form-control" rows="3" id="message"></textarea>
+							<label>Mercado: (*)</label>
+							<select class="form-control required" id="mercados">
+								<option value="Bebidas">Bebidas</option>								
+								<option value="Lacteos">Lacteos</option>
+								<option value="Alimentos">Alimentos</option>
+								<option value="Food Service">Food Service</option>
+								<option value="Home Care">Home Care</option>
+								<option value="Química y Pintura">Química y Pintura</option>
+								<option value="Hogar">Hogar</option>
+								<option value="Sanitización">Sanitización</option>
+								<option value="Industria de Plástico">Industria de Plástico</option>
+								<option value="Industria Farmaceutica">Industria Farmaceutica</option>
+								<option value="Industrias Varias">Industrias Varias</option>
+							</select> 
 						</div>
 						<div class="form-group">
-							<?php
-							/*
-								require_once('lib/reCAPTCHA/recaptchalib.php');
-								$publickey = "6LdVTf0SAAAAAJgYipSGJxlNJA-TRRoGAo0M7Qe_";
-								echo recaptcha_get_html($publickey);
-							*/
-							?>
+							<label>Mensaje: (*)</label>
+							<textarea class="form-control required" rows="3" id="message"></textarea>
 						</div>
-						<input type="button" value="Enviar" class="btn btn-default" onclick="javascript:checkForm();" />
-						<!--<button type="submit" class="btn btn-default">Enviar</button>-->
+						<div class="form-group">
+							<input type="button" value="Enviar" class="btn btn-default" onclick="javascript:checkForm();" />
+						</div>						
 					</form>
 				</div>
 				<div class="col-md-5">
@@ -70,4 +73,4 @@
 	</div>
 
 
-<?php require("_footer.php");?>
+<?php require("footer.php");?>

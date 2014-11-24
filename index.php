@@ -2,7 +2,7 @@
 
 	<!-- SLIDER -->
 	<div id="wrapper_slider">
-		
+		<div class="container">
 		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 			<!-- Indicators -->
 			<ol class="carousel-indicators">
@@ -15,16 +15,16 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="img/sliders/home/slider1.jpg" alt="INGRUP">
+					<img src="img/sliders/home/slider1.jpg" alt="INGRUP | Fabricamos Confianza desde 1974">
 				</div>
 				<div class="item">
 					<img src="img/sliders/home/slider2.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">
 				</div>
 				<div class="item">
-					<img src="img/sliders/home/slider3.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider3.jpg" alt="Comprometidos con el medio ambiente">
 				</div>
 				<div class="item">
-					<img src="img/sliders/home/slider4.jpg" alt="Mas de 100 Marcas nos han confiado sus productos">
+					<img src="img/sliders/home/slider4.jpg" alt="Fabricamos Confianza desde 1974">
 				</div>
 			</div>
 
@@ -38,24 +38,26 @@
 				<span class="sr-only">Next</span>
 			</a>
 		</div>
-
+		</div>
 	</div>
 	<!-- end - SLIDER -->
 
 <?php require("inc/menu.php");?>
-<?php require("inc/user1.php");?>
+<?php /*require("inc/user1.php");*/ ?>
 	
 	<!-- CONTENT -->
 	<div id="wrapper_content">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-12">
-					<h2 class="textCenter">40 AÑOS DE CALIDAD ININTERRUMPIDA</h2>
-					<p style="text-align:center;">Somos la compañía líder en el mercado de los empaques. <br/>
-Nuestra experiencia abarca más de 100 marcas en 8 países.</p> 
+				<div class="col-md-6">
+					<h2 class="textCenter">Fabricamos Confianza desde 1974</h2>
+					<h3 style="text-align:center;">Somos el proveedor de empaques más confiable. <br/>Fabricamos envases, embalajes, etiquetas, impresiones,<br/> materiales plásticos reciclados amigables con el medio ambiente <br/>y una amplia gama de productos para el hogar.</h3> 
 					<br/>
 				</div>
+				<div class="col-md-6">
+				</div>
 			</div>
+			<!--
 			<div class="row">
 				<div class="col-xs-6 col-md-3">
 					<a href="#" class="thumbnail">
@@ -90,6 +92,7 @@ Nuestra experiencia abarca más de 100 marcas en 8 países.</p>
 					</a>
 				</div>
 			</div>
+		-->
 			<!--
 			<div class="row">
 				<div class="col-xs-12 col-md-12">

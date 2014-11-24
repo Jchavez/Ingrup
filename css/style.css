@@ -195,6 +195,9 @@ video {
 		    width: 100%;
 		    height: 100%;
 		}
+		#wrapper_footer select{
+			color: #999;
+		}
 /*end - FOOTER*/
 
 
@@ -222,6 +225,12 @@ video {
 @media only screen and (min-width: 40.063em) and (max-width: 64em) { 
 	.navbar-brand{
 		display: block;
+	}
+	.nav > li > a{
+		padding: 15px 15px;  
+	}
+	.navbar-header{
+		display: none;
 	}
 } 
 

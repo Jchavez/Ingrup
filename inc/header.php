@@ -2,11 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
+	<meta name="description" content="Somos la compañía líder en el mercado de los empaques. 
+	Nuestra experiencia abarca más de 100 marcas en 8 países.">
+	<meta name="keywords" content="">
+	<meta name="author" content="Ingrup">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>INGRUP | Fabricamos Confianza desde 1974</title>
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Sweet Alert -->
+	<link href="css/sweet-alert.css" rel="stylesheet">
 	<!-- Custom CSS - by:jonathanchavez@icasa.com.gt -->
 	<link href="css/style.css" rel="stylesheet" type="text/css">	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -21,7 +27,7 @@
 	<!-- HEADER -->
 	<div id="wrapper_header">
 		<div class="container">	
-			<a href="index.php"><img src="img/logo.jpg"></a>
+			<a href="index.php"><img src="img/logo.jpg" alt="INGRUP | Fabricamos Confianza desde 1974s"></a>
 		</div>
 	</div>
 	<!-- end - HEADER -->

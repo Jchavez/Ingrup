@@ -17,7 +17,7 @@ function validateEmail(email){
 function checkRequired(){
 	//Check if required fields are filled
 	var counter = 0;
-	jQuery("input.required, select.required").each(function(index) {
+	jQuery("input.required, select.required, textarea.required").each(function(index) {
 		contentField = jQuery(this).val();
 		//Check if empty
 		if(contentField == '' || contentField == null || contentField == '0'){
@@ -38,8 +38,13 @@ function checkRequired(){
 
 	//If any field is "not valid"
 	if(counter > 0){
+		swal({
+			title: "Error",   
+			text: "Los campos REQUERIDOS no pueden estar vacios.",   
+			type: "error",   
+			confirmButtonText: "Cerrar" });
 		//Set this message
-		$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Los campos no pueden estar vacios</div>');
+		//$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Los campos no pueden estar vacios</div>');
 		//alert('Los campos no pueden estar vacios');
 		return false;
 	}else{
@@ -58,8 +63,13 @@ function checkForm(){
 		two = validateEmail(contentField);
 		if(!two){
 			//jQuery('.errMsg').html('Inserte un Email V&aacute;lido');
-			$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Inserte un E-mail v&aacute;lido</div>');
+			//$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Inserte un E-mail v&aacute;lido</div>');
 			//alert('Inserte un E-mail valido');
+			swal({
+			title: "Error",   
+			text: "Inserte un Correo Electronico Valido.",   
+			type: "error",   
+			confirmButtonText: "Cerrar" });
 		}
 	});
 	
