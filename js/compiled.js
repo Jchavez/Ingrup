@@ -1,6 +1,29 @@
 // JavaScript Document
 $(document).ready(function() {
+	$('.tp-banner').revolution(
+	{
+		delay:9000,
+		startwidth:1170,
+		startheight:400,
+		hideThumbs:10,
+		fullWidth:"on",
+		forceFullWidth:"on",
+		onHoverStop:"off",
+		touchenabled:"on",
+		parallax:"mouse",
+		parallaxBgFreeze:"on",
+		parallaxLevels:[7,4,3,2,5,4,3,2,1,0]
+	});
 
+	$('.slider-market').revolution(
+	{
+		delay:9000,
+		hideThumbs:15,
+		fullWidth:"off",
+		forceFullWidth:"off",
+		onHoverStop:"off",
+		touchenabled:"on"
+	});
 });
 /*== Email Validator==*/
 function validateEmail(email){

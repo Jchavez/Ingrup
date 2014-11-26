@@ -43,10 +43,10 @@ video {
 
 /*SLIDER*/
 #wrapper_slider{
-	width: 100%;
+	max-width: 100%;
 }
 	#wrapper_slider img{
-		width: 100%;
+		/*width: 100%;*/
 	}
 /*end - SLIDER*/
 
@@ -255,3 +255,31 @@ video {
 /*********XXLarge screens**********/
 /* min-width 1921px, xxlarge screens */
 @media only screen and (min-width: 120.063em) { } 
+
+
+
+
+
+.boxedcontainer		{max-width: 1170px; margin:auto; padding:0px 0px;}
+
+/*********************************************
+	-	SETTINGS FOR BANNER CONTAINERS	-
+**********************************************/
+
+.tp-banner-container{
+	width:100%;
+	position:relative;
+	padding:0;
+
+}
+
+.tp-banner,.slider-market{
+	width:100%;
+	position:relative;
+}
+
+.tp-banner-fullscreen-container {
+		width:100%;
+		position:relative;
+		padding:0;
+}

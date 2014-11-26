@@ -26,6 +26,9 @@
 <script src="js/bootstrap.min.js"></script> 
 <!-- Sweet Alert -->
 <script src="js/sweet-alert.min.js"></script> 
+<!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <!-- Compiled by: jchavez -->
 <script src="js/compiled.js"></script> 
 <script>
