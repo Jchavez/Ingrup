@@ -13,6 +13,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>INGRUP | Fabricamos Confianza desde 1974</title>
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+	<link rel="icon" type="image/gif" href="img/favicon.gif" />
+	<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<!-- Sweet Alert -->

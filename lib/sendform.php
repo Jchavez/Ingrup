@@ -30,7 +30,7 @@ function send_mail($to, $subject, $message, $from = '', $fromname = ''){
 $message = '<table style="text-align: center; width: 465px; height: 575px;" border="0">
 <tbody style="text-align: left;">
 <tr style="text-align: left;">
-<td style="text-align: left;"><strong style=" font-weight:"><b>Formulario de Contacto</b></strong></td>
+<td style="text-align: left;"><strong style=" font-weight:"><b>Formulario de Contacto INGRUP</b></strong></td>
 </tr>
 <tr style="text-align: left;">
 <td style="text-align: left;"><b>Nombre y Apellidos:</b></td>
@@ -45,7 +45,15 @@ $message = '<table style="text-align: center; width: 465px; height: 575px;" bord
 <td style="text-align: left;">'.$_POST['psubject'].'</td> 
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>Recibir Informaci&oacute;n de IDC:</b></td>
+<td style="text-align: left;"><b>País:</b></td>
+<td style="text-align: left;">'.$_POST['pcountry'].'</td> 
+</tr>
+<tr style="text-align: left;">
+<td style="text-align: left;"><b>Mercado:</b></td>
+<td style="text-align: left;">'.$_POST['pmarket'].'</td> 
+</tr>
+<tr style="text-align: left;">
+<td style="text-align: left;"><b>Mensaje:</b></td>
 <td style="text-align: left;">'.$_POST['pmessage'].'</td>
 </tr>
 </tbody>

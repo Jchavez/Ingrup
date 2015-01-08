@@ -1,7 +1,6 @@
 // JavaScript Document
-$(document).ready(function() {
-	$('.tp-banner').revolution(
-	{
+jQuery(document).ready(function() {
+	jQuery('.tp-banner').revolution({
 		delay:9000,
 		startwidth:1170,
 		startheight:400,
@@ -14,17 +13,13 @@ $(document).ready(function() {
 		parallaxBgFreeze:"on",
 		parallaxLevels:[7,4,3,2,5,4,3,2,1,0]
 	});
-
-	$('.slider-market').revolution(
-	{
-		delay:9000,
-		hideThumbs:15,
-		fullWidth:"off",
-		forceFullWidth:"off",
-		onHoverStop:"off",
-		touchenabled:"on"
-	});
 });
+/*==Clen Form==*/
+function clean(){
+	jQuery(".clean").each(function(index){
+		jQuery(this).val("");
+	});
+}
 /*== Email Validator==*/
 function validateEmail(email){
    var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
@@ -36,7 +31,6 @@ function validateEmail(email){
 	}
 }
 /*== FORM VALIDATOR ==*/
-
 function checkRequired(){
 	//Check if required fields are filled
 	var counter = 0;
@@ -66,28 +60,50 @@ function checkRequired(){
 			text: "Los campos REQUERIDOS no pueden estar vacios.",   
 			type: "error",   
 			confirmButtonText: "Cerrar" });
-		//Set this message
-		//$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Los campos no pueden estar vacios</div>');
-		//alert('Los campos no pueden estar vacios');
 		return false;
 	}else{
 		//Reset the error message
-		return true;
+		three = checkSecurityCode();
+		if(three){
+			return true;	
+		}else{
+			return false;
+		}
+		
 	}
+}
+/*== SECURITY CODE ==*/
+function checkSecurityCode(){
+	var code = jQuery('#code').val();
+	var counter = 0;
+	jQuery.ajax({
+		type: "POST", 
+		url:  "lib/captcha/captcha-verify.php",
+		data: 'pcode='+code,
+		success: function(msg){
+			if(msg){ 
+				returni= true;
+			}
+			else{
+				swal({
+					title: "Error, Eres un Robot?",   
+					text: "El codigo de Seguridad es Incorrecto",   
+					type: "error",   
+					confirmButtonText: "Cerrar" });
+				returni= false;
+			}
+	 	}
+	});
+	return returni;
 }
 
 function checkForm(){
 	one = checkRequired();
-
-	
 	
 	jQuery("input.validEmail").each(function(index) {
 		contentField = jQuery(this).val();
 		two = validateEmail(contentField);
 		if(!two){
-			//jQuery('.errMsg').html('Inserte un Email V&aacute;lido');
-			//$('#contact_form').prepend('<div class="alert alert-danger" role="alert">Inserte un E-mail v&aacute;lido</div>');
-			//alert('Inserte un E-mail valido');
 			swal({
 			title: "Error",   
 			text: "Inserte un Correo Electronico Valido.",   
@@ -95,26 +111,34 @@ function checkForm(){
 			confirmButtonText: "Cerrar" });
 		}
 	});
-	
 
 if(one && two){
-	var name = $('#name').val();
-	var email = $('#email').val();
-	var subject = $('#subject').val();
-	var message = $('#message').val();
+	var name = jQuery('#name').val();
+	var email = jQuery('#email').val();
+	var subject = jQuery('#subject').val();
+	var country = jQuery('#country').val();
+	var market = jQuery('#market').val();
+	var message = jQuery('#message').val();
 
-	$('#contact_form').html('<div id="response_div"><img src="/img/ajax-loader.gif" /></div>');
-	$.ajax({
+	//$('#contact_form').html('<div style="text-align:center;"><img src="img/ajax-loader.gif" /></div>');
+	jQuery.ajax({
 	   type: "POST", 
 	   url: "lib/sendform.php",
-	   data: 'pname='+name+'&pemail='+email+'&pmessage='+message,
+	   data: 'pname='+name+'&pemail='+email+'&psubject='+subject+'&pcountry='+country+'&pmarket='+market+'&pmessage='+message,
 	   success: function(msg){
-		   if(msg){
-			   //alert('¡Gracias!, su mensaje ha sido enviado.');
-				 $('#contact_form').html('<div class="alert alert-success" role="alert">&iexcl;Gracias!, su mensaje ha sido enviado.<br /></div>');
+		   if(msg){				 
+				 swal({
+					title: "Mensaje Enviado",   
+					text: "Su mensaje ha sido enviado; pronto nos comunicaremos.",   
+					type: "success"});
+				 clean();
+				 //window.location.reload();
 		   }else{
-				 $('#contact_form').html('<div class="alert alert-danger" role="alert">Su mensaje NO a sido enviado, por favor intente mas tarde.</div>');
-				 //alert('Su mensaje NO a sido enviado, por favor intente mas tarde.');
+				swal({
+					title: "Error",   
+					text: "Su mensaje NO a sido enviado, por favor intente mas tarde.",   
+					type: "error",   
+					confirmButtonText: "Cerrar" });
 
 		   }
 	   }

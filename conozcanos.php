@@ -17,7 +17,7 @@
 				<ul class="nav nav-tabs" role="tablist">
 				<li role="presentation" class="active"><a href="#inicios" role="tab" data-toggle="tab">Inicios</a></li>
 				<li role="presentation"><a href="#politicaDeCalidad" role="tab" data-toggle="tab">Pol&iacute;tica de Calidad</a></li>
-				<li role="presentation"><a href="#nuestraFilosofia" role="tab" data-toggle="tab">Nuestra Filosofia</a></li>
+				<li role="presentation"><a href="#filosofia" role="tab" data-toggle="tab">Filosof&iacute;a</a></li>
 			</ul>
 
 			<!-- Tab panes -->
@@ -28,7 +28,7 @@
 							<div class="col-md-1">
 							</div>
 							<div class="col-md-6">
-								<h2>INICIOS</h2>
+								<h2><strong class="blue">In</strong>icios</h2>
 								<p>
 								En 1974 un grupo visionario de empresarios Guatemaltecos detectó la necesidad de <strong>proveer soluciones 
 								de empaque</strong> a diversos sectores de la industria, instalando una de las primeras plantas de inyección
@@ -38,7 +38,31 @@
 								<br/>
 							</div>
 							<div class="col-md-5">
+								<div id="carousel-example-generic0" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="img/sliders/inicios/inicios1.jpg"  alt="Inicios INGRUP">
+										</div>
+										<div class="item">										
+											<img src="img/sliders/inicios/inicios2.jpg"  alt="Inicios INGRUP">
+										</div>
+										<div class="item">										
+											<img src="img/sliders/inicios/inicios3.jpg"  alt="Inicios INGRUP">
+										</div>
+									</div>
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic0" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic0" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+								<!--
 								<img src="img/sliders/inicios/img1.jpg" class="img-rounded img-responsive">
+								-->
 							</div>
 						</div>
 					</section>
@@ -49,7 +73,7 @@
 							<div class="col-md-1">
 							</div>
 							<div class="col-md-6">
-								<h2>POLITICA DE CALIDAD</h2>
+								<h2>Pol&iacute;tica de Calidad</h2>
 								<p>
 								Debemos buscar continuamente la excelencia en el negocio de empaques utilizando un sistema de
 								gestión de calidad eficaz y recurso humano competente, para obtener la satisfacción de nuestros
@@ -58,18 +82,52 @@
 								<br/>
 							</div>
 							<div class="col-md-5">
-								<img src="img/sliders/inicios/img2.jpg" class="img-rounded img-responsive">
+
+								<div id="carousel-example-generic1" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="img/sliders/inicios/politica1.jpg"  alt="Politica de Calidad INGRUP">
+										</div>
+										<div class="item">										
+											<img src="img/sliders/inicios/politica2.jpg"  alt="Politica de Calidad INGRUP">
+										</div>
+										<div class="item">										
+											<img src="img/sliders/inicios/politica3.jpg"  alt="Politica de Calidad INGRUP">
+										</div>
+									</div>
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic1" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic1" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+
+								<!--<img src="img/sliders/inicios/politica1.jpg" class="img-rounded img-responsive">-->
 							</div>
 						</div>
 					</section>
 				</div>
-				<div role="tabpanel" class="tab-pane" id="nuestraFilosofia">
+				<div role="tabpanel" class="tab-pane" id="filosofia">
 					<section>
 						<div class="row">
 							<div class="col-md-1">
 							</div>
 							<div class="col-md-6">
-								<h2>FILOSOFIA</h2>
+
+
+								<h2>Filosof&iacute;a</h2>
+								<h4>Prop&oacute;sito</h4>
+								<p>
+								Agregar valor a las marcas de nuestros clientes
+								con soluciones de empaque confiables,
+								innovadores y amigables con el ambiente.
+								</p>
+								<br/>
+
 								<h4>Misi&oacute;n</h4>
 								<p>
 									Proveemos soluciones de empaque a nivel regional, mediante tecnología de punta y un equipo humano competente y comprometido, generando beneficios para nuestros clientes, inversionistas y colaboradores.
@@ -90,17 +148,34 @@
 								</p>
 								<br/>
 
-								<h4>Prop&oacute;sito</h4>
-								<p>
-								Agregar valor a las marcas de nuestros clientes
-								con soluciones de empaque confiables,
-								innovadores y amigables con el ambiente.
-								</p>
-								<br/>
+								
 							</div>
 							<div class="col-md-5">
-								<p>&nbsp;</p>
-								<img src="img/sliders/inicios/img3.jpg" class="img-rounded img-responsive">
+								<!--<p>&nbsp;</p>
+								<img src="img/sliders/inicios/img3.jpg" class="img-rounded img-responsive">-->
+								<div id="carousel-example-generic2" class="carousel slide" data-ride="carousel">
+									<div class="carousel-inner" role="listbox">
+										<div class="item active">
+											<img src="img/sliders/inicios/filosofia1.jpg"  alt="Politica de Calidad INGRUP">
+										</div>
+										<div class="item">										
+											<img src="img/sliders/inicios/filosofia2.jpg"  alt="Politica de Calidad INGRUP">
+										</div>
+										<div class="item">										
+											<img src="img/sliders/inicios/filosofia3.jpg"  alt="Politica de Calidad INGRUP">
+										</div>
+									</div>
+									<!-- Controls -->
+									<a class="left carousel-control" href="#carousel-example-generic2" role="button" data-slide="prev">
+										<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										<span class="sr-only">Previous</span>
+									</a>
+									<a class="right carousel-control" href="#carousel-example-generic2" role="button" data-slide="next">
+										<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										<span class="sr-only">Next</span>
+									</a>
+								</div>
+
 							</div>
 						</div>
 					</section>

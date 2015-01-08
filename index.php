@@ -5,8 +5,53 @@
 	<div class="tp-banner-container">
 		<div class="tp-banner" >
 			<ul>
+				<!--
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1800" >
+					<div class="tp-caption lfb skewtoleft start" 
+					data-x="center" 
+					data-y="center" 
+					data-speed="2000" 
+					data-start="1300" 
+					data-easing="Power4.easeOut" 
+					data-endspeed="400" 
+					data-endeasing="Power1.easeIn" 
+					style="z-index: 11; left: 122px; top: 133px; visibility: visible; opacity: 0; transform: matrix3d(1, 0, 0, 0, -0.57357, 0.81915, 0, 0, 0, 0, 1, -0.0025, -1230, 0, 0, 1);">
+						<img src="img/sliders/home/slide4_logo.png" alt="">
+					</div>
+				</li>
+				-->
+				<?php /*
 				<!-- SLIDE 1  -->
-				<li data-transition="papercut" data-slotamount="7" data-masterspeed="1500" >
+				<li data-transition="slidehorizontal" data-slotamount="7" data-masterspeed="1500"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7">
+					<!-- LAYER NR. 1 -->
+					<div class="tp-caption tp-fade fadeout fullscreenvideo"
+					data-x="0"
+					data-y="0"
+					data-speed="1000"
+					data-start="1100"
+					data-easing="Power4.easeOut"
+					data-endspeed="1500"	
+					data-endeasing="Power4.easeIn"
+					data-autoplay="true"
+					data-autoplayonlyfirsttime="false"
+					data-nextslideatend="true"
+					data-forceCover="1"
+					data-dottedoverlay="twoxtwo"
+					data-aspectratio="16:9"
+					data-forcerewind="on"
+					style="z-index: 2">
+						<video class="video-js vjs-default-skin" preload="none" width="100%" height="100%"
+						poster='' data-setup="{}">
+							<source src='media/sliders/home/slide1.mp4' type='video/mp4' />						
+							<source src='media/sliders/home/slide1.webm' type='video/webm' />
+							<source src='media/sliders/home/slide1.ogv' type='video/ogg' />
+							Your browser does not support the video tag.
+						</video>
+					</div>
+				</li>
+				*/ ?>
+				<!-- SLIDE 2  -->
+				<li data-transition="fade" data-slotamount="7" data-masterspeed="1800" >
 					<!-- MAIN IMAGE -->
 					<img src="img/sliders/home/slide1.jpg"  alt="Equipo integro, motivado y comprometido"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 					<!-- LAYERS -->
@@ -26,7 +71,8 @@
 						EQUIPO INTEGRO, <br/>MOTIVADO Y COMPROMETIDO
 					</div> 
 				</li>
-				<!-- SLIDE 2  -->
+
+				<!-- SLIDE 3  -->
 				<li data-transition="incube" data-slotamount="7" data-masterspeed="1500" >
 					<!-- MAIN IMAGE -->
 					<img src="img/sliders/home/slide2.jpg"  alt="Equipo integro, motivado y comprometido"  data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="right center">
@@ -49,7 +95,7 @@
 					</div> 
 				</li>
 
-				<!-- SLIDE 3  -->
+				<!-- SLIDE 4  -->
 				<li data-transition="fade" data-slotamount="1" data-masterspeed="1500"  data-title="Comprometidos con el medio ambiente">
 					<!-- MAIN IMAGE -->
 					<img src="img/sliders/home/slide3.jpg"  alt="Comprometidos con el medio ambiente"  data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="right center">
@@ -118,7 +164,7 @@
 
 				</li>
 
-				<!-- SLIDE 4  -->
+				<!-- SLIDE 5  -->
 				<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" >
 					<!-- MAIN IMAGE -->
 					<img src="img/sliders/home/slide4.jpg"  alt="Planta Ingrup"  data-bgposition="left center" data-kenburns="on" data-duration="14000" data-ease="Linear.easeNone" data-bgfit="100" data-bgfitend="130" data-bgpositionend="right center">
@@ -226,6 +272,9 @@
 							</div>
 							<div class="item">
 								<img src="img/sliders/home/mercados/pintura0.jpg" alt="Pintura">
+							</div>
+							<div class="item">
+								<img src="img/sliders/home/mercados/agroindustria0.jpg" alt="Agroindustria">
 							</div>
 							<div class="item">
 								<img src="img/sliders/home/mercados/cerveza1.jpg" alt="Cerveza">

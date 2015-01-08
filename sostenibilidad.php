@@ -29,7 +29,7 @@
 							<div class="col-md-1">
 							</div>
 							<div class="col-md-6">
-								<h2>DESARROLLO SOSTENIBLE</h2>
+								<h2>Desarrollo Sostenible</h2>
 								<p>
 									El Desarrollo Sostenible es el desarrollo que satisface las necesidades de las generaciones actuales sin 
 									comprometer las posibilidades de generaciones futuras para satisfacer las suyas (Declaración de Río, 1992). 
@@ -104,7 +104,7 @@
 							<div class="col-md-1">
 							</div>
 							<div class="col-md-6">
-								<h2>¿C&Oacute;MO PUEDO RECICLAR?</h2>
+								<h2>¿C&oacute;mo puedo reciclar?</h2>
 								<ul>
 									<li>Clasificar los desechos. Lo principal es separar los desechos orgánicos de los inorgánicos.</li>
 									<li>Clasificar los desechos inorgánicos de acuerdo a su origen (plásticos, metales, papel, vidrio) y en el caso de los plásticos de acuerdo a su nomenclatura (polietileno, polipropileno, Pet, etc.).</li>
@@ -124,7 +124,7 @@
 					<section>
 						<div class="row">
 							<div class="col-md-12">
-								<h2 class="textCenter">MATERIALES QUE RECICLAMOS</h2>
+								<h2 class="textCenter">Materiales que Reciclamos</h2>
 								<img src="img/materialQueSeRecicla.jpg" class="img-responsive textCenter" style="margin: 0 auto;">
 							</div>
 						</div>

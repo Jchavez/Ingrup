@@ -1,31 +1,19 @@
 <?php
-
 // Start the session so we can store our generated key inside it for later retrieval
-
 session_start( );
-
 // Set to whatever size you want, or randomize for more security
-
 $captchaTextSize = 7;
 
 do {
-
     // Generate a random string and encrypt it with md5
-
     $md5Hash = md5( microtime( ) * mktime( ) );
-
     // Remove any hard to distinguish characters from our hash
-
     preg_replace( '([1aeilou0])', "", $md5Hash );
-
 } while( strlen( $md5Hash ) < $captchaTextSize );
 
 // we need only 7 characters for this captcha
-
 $key = substr( $md5Hash, 0, $captchaTextSize );
-
 // Add the newly generated key to the session. Note, it is encrypted.
-
 $_SESSION['key'] = md5( $key );
 
 // grab the base image from our pre-generated captcha image background
