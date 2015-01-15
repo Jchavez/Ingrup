@@ -9,14 +9,14 @@
  */
 class medoo
 {
-	protected $database_type;
+	protected $database_type="mysql";
 
 	// For MySQL, MariaDB, MSSQL, Sybase, PostgreSQL, Oracle
-	protected $server;
+	protected $server="localhost";
 
-	protected $username;
+	protected $username="root";
 
-	protected $password;
+	protected $password="";
 
 	// For SQLite
 	protected $database_file;
@@ -29,7 +29,7 @@ class medoo
 
 	protected $charset;
 
-	protected $database_name;
+	protected $database_name="backendingrup";
 
 	protected $option = array();
 

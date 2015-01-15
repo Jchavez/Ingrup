@@ -4,6 +4,8 @@
 			<?php 
 				$id= $_GET["id"];
 				$products =  $database->query("select products.id, products.name from products inner join category_products on products.category_products_id=category_products.id WHERE category_products.id=$id");
+				print_r($products);
+				echo count($products);
 				if(count($products)>0){
 					foreach ($products as $product) {
 						$id= $product["id"];
@@ -12,6 +14,7 @@
 						echo "<br />";
 					}
 				}else{
+
 					$category_products =  $database->query("select * from category_products WHERE category_products.id=$id");
 					foreach ($category_products as $category_product) {
 						$id= $category_product["id"];

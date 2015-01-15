@@ -3,10 +3,17 @@
 	<div id="wrapper_content">
 		<div class="container">
 			<h1 class="textCenter blue">CONT&Aacute;CTENOS</h1>
+			<?php 
+				//print_r($this->data['data']);
+			?>
 			<div class="row">
 				<div class="col-md-2">
 				</div>
 				<div class="col-md-8">
+					<?php 
+						foreach ($this->data['data'] as $contact) {
+					?>
+					<h2><?php echo $contact['title']; ?></h2>
 					<table class="table table-striped">
 						<thead>
 							<tr>
@@ -16,11 +23,14 @@
 						</thead>
 						<tbody>
 							<tr>
-								<td><span class="glyphicon glyphicon-earphone"></span> +(502) 2326-5700</td>
-								<td><span class="glyphicon glyphicon-home"></span> Av. Petapa y 56 Calle, zona 12, Ciudad de Guatemala, Guatemala</td>
+								<td><span class="glyphicon glyphicon-earphone"></span><?php echo $contact['telefono']; ?></td>
+								<td><span class="glyphicon glyphicon-home"></span> <?php echo $contact['direccion']; ?></td>
 							</tr>
 						</tbody>
 					</table>
+					<?php 
+						} 
+					?>
 				</div>
 				<div class="col-md-2">
 				</div>

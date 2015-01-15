@@ -1,5 +1,5 @@
-<?php require("inc/header.php");?>
-<?php require("inc/menu.php");?>
+<?php require_once("inc/header.php");?>
+<?php require_once("inc/menu.php");?>
 	
 	<img src="img/headerSostenibilidad.jpg" class="img-responsive">
 	<!-- CONTENT -->
@@ -136,4 +136,4 @@
 	<!-- end - TABS INNER-->
 
 
-<?php require("inc/footer.php");?>
+<?php require_once("inc/footer.php");?>

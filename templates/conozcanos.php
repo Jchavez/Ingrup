@@ -1,5 +1,5 @@
-<?php require("inc/header.php");?>
-<?php require("inc/menu.php");?>
+<?php require_once("inc/header.php");?>
+<?php require_once("inc/menu.php");?>
 
 	<!-- CONTENT -->
 	<div id="wrapper_content">
@@ -185,10 +185,6 @@
 		</div>
 	</div>
 	<!-- end - TABS INNER-->
-<!--
-<img src="img/headerConozcanos.png" class="img-responsive">
--->
 
-	<!-- end - MENU -->
 
-<?php require("inc/footer.php");?>
+<?php require_once("inc/footer.php");?>

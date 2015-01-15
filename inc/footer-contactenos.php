@@ -57,23 +57,20 @@
 				<div class="col-md-5">
 					<strong>PLANTAS DE PRODUCCI&Oacute;N</strong>
 					<ul>
-						<li><a href="contactenos-plantas-mexico.php">M&eacute;xico</a></li>
-						<li><a href="contactenos-plantas-guatemala.php">Guatemala</a></li>
-						<li><a href="contactenos-plantas-honduras.php">Honduras</a></li>
-						<li><a href="contactenos-plantas-nicaragua.php">Nicaragua</a></li>
-						<li><a href="contactenos-plantas-costa-rica.php">Costa Rica</a></li>
+						<li><a href="contactenos-plantas-mexico">M&eacute;xico</a></li>
+						<li><a href="contactenos-plantas-guatemala">Guatemala</a></li>
+						<li><a href="contactenos-plantas-honduras">Honduras</a></li>
+						<li><a href="contactenos-plantas-nicaragua">Nicaragua</a></li>
+						<li><a href="contactenos-plantas-costa-rica">Costa Rica</a></li>
 					</ul>
 					
-	
-
-
 					<strong>OFICINAS COMERCIALES</strong>
 					<ul>
-						<li><a href="contactenos-oficinas-guatemala.php">Guatemala</a></li>
-						<li><a href="contactenos-oficinas-elsalvador.php">El Salvador</a></li>
-						<li><a href="contactenos-oficinas-honduras.php">Honduras</a></li>
-						<li><a href="contactenos-oficinas-panama.php">Panam&aacute;</a></li>
-						<li><a href="contactenos-oficinas-peru.php">Per&uacute;</a></li>
+						<li><a href="contactenos-oficinas-guatemala">Guatemala</a></li>
+						<li><a href="contactenos-oficinas-elsalvador">El Salvador</a></li>
+						<li><a href="contactenos-oficinas-honduras">Honduras</a></li>
+						<li><a href="contactenos-oficinas-panama">Panam&aacute;</a></li>
+						<li><a href="contactenos-oficinas-peru">Per&uacute;</a></li>
 						<li><a href="contactenos-oficinas-republica-dominicana.php">Rep&uacute;blica Dominicana</a></li>
 					</ul>
 
