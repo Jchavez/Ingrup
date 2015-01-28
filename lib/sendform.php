@@ -30,36 +30,36 @@ function send_mail($to, $subject, $message, $from = '', $fromname = ''){
 $message = '<table style="text-align: center; width: 465px; height: 575px;" border="0">
 <tbody style="text-align: left;">
 <tr style="text-align: left;">
-<td style="text-align: left;"><strong style=" font-weight:"><b>Formulario de Contacto INGRUP</b></strong></td>
+<td colspan="2" style="text-align: left;"><strong style=" font-weight:"><strong>Formulario de Contacto INGRUP</strong></strong></td>
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>Nombre y Apellidos:</b></td>
+<td style="text-align: left;"><strong>Nombre Completo:</strong></td>
 <td style="text-align: left;">'.$_POST['pname'].'</td>
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>E-mail:</b></td>
+<td style="text-align: left;"><strong>E-mail:</strong></td>
 <td style="text-align: left;">'.$_POST['pemail'].'</td> 
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>Asunto:</b></td>
+<td style="text-align: left;"><strong>Asunto:</strong></td>
 <td style="text-align: left;">'.$_POST['psubject'].'</td> 
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>País:</b></td>
+<td style="text-align: left;"><strong>País:</strong></td>
 <td style="text-align: left;">'.$_POST['pcountry'].'</td> 
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>Mercado:</b></td>
+<td style="text-align: left;"><strong>Mercado:</strong></td>
 <td style="text-align: left;">'.$_POST['pmarket'].'</td> 
 </tr>
 <tr style="text-align: left;">
-<td style="text-align: left;"><b>Mensaje:</b></td>
+<td style="text-align: left;"><strong>Mensaje:</strong></td>
 <td style="text-align: left;">'.$_POST['pmessage'].'</td>
 </tr>
 </tbody>
 </table>'; 
 /*asesores@grupoidc.com*/ 
-if(send_mail('jonathanchavez@icasa.com.gt', 'Formulario de Contacto INGRUP', $message, 'info@ingruplatam.com', 'Sitio Web - INGRUP')){
+if(send_mail('jonathanchavez@icasa.com.gt', 'Formulario de Contacto INGRUP', $message, $_POST['pemail'], 'Sitio Web - INGRUP')){
 	$msg=true;
 	//$msg = 'Thank you!, your message has been sent.';
 }else{

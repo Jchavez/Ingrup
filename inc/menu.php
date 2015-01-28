@@ -16,13 +16,15 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li><a href="/ingrup/">Inicio</a></li>
-							<li><a href="conozcanos">Con&oacute;zcanos</a></li>
-							<li class=""><a href="familiaProductos">Productos</a></li>
-							<li class=""><a href="trabajeConNosotros">Trabaje con Nosotros</a></li>
-							<li class=""><a href="sostenibilidad">Sostenibilidad</a></li>
-							<!--<li class=""><a href="noticias.php">Noticias</a></li>-->
-							<li class=""><a href="contactenos">Cont&aacute;ctenos</a></li>
+							<?php
+							echo 
+							'<li><a href="'.$GLOBALS["root"].'">Inicio</a></li>
+							<li><a href="'.$GLOBALS["root"].'conozcanos">Con&oacute;zcanos</a></li>
+							<li class=""><a href="'.$GLOBALS["root"].'familia-productos">Productos</a></li>
+							<li class=""><a href="'.$GLOBALS["root"].'trabaje-con-nosotros">Trabaje con Nosotros</a></li>
+							<li class=""><a href="'.$GLOBALS["root"].'sostenibilidad">Sostenibilidad</a></li>
+							<li class=""><a href="'.$GLOBALS["root"].'contactenos">Cont&aacute;ctenos</a></li>';
+							?>
 						</ul>
 						<form class="navbar-form navbar-left" role="search">
 							<div class="form-group">

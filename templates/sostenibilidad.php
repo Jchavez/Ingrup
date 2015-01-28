@@ -1,4 +1,3 @@
-<?php require_once("inc/header.php");?>
 <?php require_once("inc/menu.php");?>
 	
 	<img src="img/headerSostenibilidad.jpg" class="img-responsive">
@@ -134,6 +133,3 @@
 		</div>
 	</div>
 	<!-- end - TABS INNER-->
-
-
-<?php require_once("inc/footer.php");?>

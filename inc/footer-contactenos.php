@@ -71,7 +71,7 @@
 						<li><a href="contactenos-oficinas-honduras">Honduras</a></li>
 						<li><a href="contactenos-oficinas-panama">Panam&aacute;</a></li>
 						<li><a href="contactenos-oficinas-peru">Per&uacute;</a></li>
-						<li><a href="contactenos-oficinas-republica-dominicana.php">Rep&uacute;blica Dominicana</a></li>
+						<li><a href="contactenos-oficinas-republica-dominicana">Rep&uacute;blica Dominicana</a></li>
 					</ul>
 
 				</div>
@@ -81,5 +81,3 @@
 		</div>
 	</div>
 
-
-<?php require("footer.php");?>

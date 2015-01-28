@@ -1,4 +1,3 @@
-<?php require_once("inc/header.php");?>
 <?php require_once("inc/menu.php");?>
 
 	<!-- CONTENT -->
@@ -120,13 +119,7 @@
 
 
 								<h2>Filosof&iacute;a</h2>
-								<h4>Prop&oacute;sito</h4>
-								<p>
-								Agregar valor a las marcas de nuestros clientes
-								con soluciones de empaque confiables,
-								innovadores y amigables con el ambiente.
-								</p>
-								<br/>
+								
 
 								<h4>Misi&oacute;n</h4>
 								<p>
@@ -142,13 +135,27 @@
 								</p>
 								<br/>
 
-								<h4>Valores</h4>
+								<h4>Prop&oacute;sito</h4>
 								<p>
-									Integridad, Confianza, Compromiso
+								Agregar valor a las marcas de nuestros clientes
+								con soluciones de empaque confiables,
+								innovadores y amigables con el ambiente.
 								</p>
 								<br/>
 
-								
+								<h4>Valores</h4>
+									<strong class="blue">Compromiso</strong>
+									<p>Entregamos cada día el máximo esfuerzo en el cumplimiento de nuestras tareas.</p>
+									<br/>
+
+									<strong class="blue">Confianza</strong>
+									<p>Respondemos a las expectativas positivas que los demás tienen de nosotros, cumpliendo siempre y preocupándonos por los demás.</p>
+									<br/>
+
+									<strong class="blue">Integridad</strong>
+									<p>Hacemos lo que dijimos que haríamos, sostenemos nuestra postura aunque no sea la más popular, damos el ejemplo, hablamos de frente.</p>
+									<br/>
+							
 							</div>
 							<div class="col-md-5">
 								<!--<p>&nbsp;</p>
@@ -187,4 +194,3 @@
 	<!-- end - TABS INNER-->
 
 
-<?php require_once("inc/footer.php");?>

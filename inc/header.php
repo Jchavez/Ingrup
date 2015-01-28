@@ -1,3 +1,4 @@
+<?php $root="/ingrup/";?>
 <!doctype html>
 <html>
 <head>
@@ -13,17 +14,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>INGRUP | Fabricamos Confianza desde 1974</title>
-    <link rel="icon" type="image/png" href="img/favicon.png" />
-	<link rel="icon" type="image/gif" href="img/favicon.gif" />
-	<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
+    <link rel="icon" type="<?php echo $root;?>image/png" href="img/favicon.png" />
+	<link rel="icon" type="<?php echo $root;?>image/gif" href="img/favicon.gif" />
+	<link rel="icon" type="<?php echo $root;?>image/vnd.microsoft.icon" href="img/favicon.ico" />
 	<!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="<?php echo $root;?>css/bootstrap.min.css" rel="stylesheet">
 	<!-- Sweet Alert -->
-	<link href="css/sweet-alert.css" rel="stylesheet">
+	<link href="<?php echo $root;?>css/sweet-alert.css" rel="stylesheet">
 	<!-- Custom CSS - by:jonathanchavez@icasa.com.gt -->
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="<?php echo $root;?>css/style.css" rel="stylesheet" type="text/css">
 	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
-	<link rel="stylesheet" type="text/css" href="lib/rs-plugin/css/settings.css" media="screen" />	
+	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>lib/rs-plugin/css/settings.css" media="screen" />	
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -36,7 +37,7 @@
 	<!-- HEADER -->
 	<div id="wrapper_header">
 		<div class="container">	
-			<a href="index.php"><img src="img/logo.jpg" alt="INGRUP | Fabricamos Confianza desde 1974s"></a>
+			<a href="index.php"><img src="<?php echo $root;?>img/logo.jpg" alt="INGRUP | Fabricamos Confianza desde 1974s"></a>
 		</div>
 	</div>
 	<!-- end - HEADER -->

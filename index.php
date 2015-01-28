@@ -1,8 +1,23 @@
 <?php 
-require 'lib/Slim/Slim.php';
+error_reporting(E_ALL);
+ini_set('display_errors', '1');
+
+require_once("inc/header.php");
+
+require_once ('lib/Slim/Slim.php');
 \Slim\Slim::registerAutoloader();
 
-$app = new \Slim\Slim(); 
+require_once 'lib/mysql.php';
+
+$app = new \Slim\Slim(
+	array(
+    'templates.path' => './templates'
+	)
+); 
+
+$app->hook('slim.before', function () use ($app) {
+    $app->view()->appendData(array('baseUrl' => '/ingrup/'));
+});
 
 $app->get('/', function () use ($app) {
 	$app->render('inicio.php', array(
@@ -18,8 +33,7 @@ $app->get('/conozcanos', function () use ($app) {
 	);
 });
 
-$app->get('/familiaProductos', function () use ($app) {
-	require_once 'lib/mysql.php';
+$app->get('/familia-productos', function () use ($app) {
 	$db = connect_db();
 	$result = $db->query( 'SELECT id, name FROM family_products;' );
 	while ( $row = $result->fetch_array(MYSQLI_ASSOC) ) {
@@ -33,7 +47,7 @@ $app->get('/familiaProductos', function () use ($app) {
 	);
 });
 
-$app->get('/trabajeConNosotros', function () use ($app) {
+$app->get('/trabaje-con-nosotros', function () use ($app) {
 	$app->render('trabaje-con-nosotros.php', array(
 			'page_title' => "Trabaje con Nosotros | INGRUP"
 		)
@@ -245,12 +259,76 @@ $app->get('/contactenos-oficinas-republica-dominicana', function () use ($app) {
 	));
 });
 
+/*
+$app->get('/categoria-productos/:id', function ($id) use ($app) {
+	$app->view()->setData(array('id' => $id));
+	$app->render('categoria-productos.php');
+});
+*/
+
+$app->get('/categoria-productos/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select id, name, main_image from category_products where family_products_id=".$id;
+	$result = $db->query( $textQuery );
+	while ( $row = $result->fetch_array() ) {
+		$data[] = $row;
+	}	
+
+	$app->render('categoria-productos.php', array(
+			'page_title' => "Categoria de Productos | INGRUP",
+			'data' => $data
+		)
+	);
+});
+
+$app->get('/productos/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select id, name, main_image from products where category_products_id=".$id;
+	$result = $db->query( $textQuery );
+
+
+	
+
+	if($result->num_rows==0){
+		//ENVIAR INFORMACION A PRODUCTOS
+		die();
+
+	}else{
+		while ($row = $result->fetch_array()) {
+			$data[] = $row;
+		}	
+		$app->render('productos.php', array(
+			'page_title' => "Productos | INGRUP",
+			'data' => $data
+		));
+	}
+	
+	
+});
+
+$app->get('/producto/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select id, name, description, main_image from products where id=".$id;
+	$result = $db->query( $textQuery );
+
+		while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+			$data[] = $row;
+		}	
+		$app->render('producto.php', array(
+			'page_title' => "Producto | INGRUP",
+			'data' => $data
+		));
+
+});
+
+
 
    
 
 
 $app->run();
 
+require("inc/footer.php");
 ?>
 
 

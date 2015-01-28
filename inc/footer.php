@@ -21,16 +21,16 @@
 	<!-- end - FOOTER -->
 
 <!-- JQuery -->
-<script src="js/jquery-1.11.1.min.js"  type="text/javascript"></script>
+<script src="<?php echo $root;?>js/jquery-1.11.1.min.js"  type="text/javascript"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script> 
+<script src="<?php echo $root;?>js/bootstrap.min.js"></script> 
 <!-- Sweet Alert -->
-<script src="js/sweet-alert.min.js"></script> 
+<script src="<?php echo $root;?>js/sweet-alert.min.js"></script> 
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
-<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<script type="text/javascript" src="<?php echo $root;?>lib/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="<?php echo $root;?>lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
 <!-- Compiled by: jchavez -->
-<script src="js/compiled.js"></script> 
+<script src="<?php echo $root;?>js/compiled.js"></script> 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

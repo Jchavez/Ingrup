@@ -1,7 +1,3 @@
-<?php
-	require_once("inc/header.php");
-?>
-
 <!-- SLIDER -->
 <div id="wrapper_slider">
 	<div class="tp-banner-container">
@@ -289,6 +285,3 @@
 		</div>
 	</div>
 	<!-- end - CONTENT -->
-<?php
-	require_once("inc/footer.php");
-?>

@@ -1,4 +1,3 @@
-<?php require_once("inc/header.php");?>
 <?php require_once("inc/menu.php");?>
 	
 	<img src="img/headerTrabajeConNosotros.jpg" class="img-responsive">
@@ -10,8 +9,3 @@
 		</div>
 	</div>
 	<!-- end - CONTENT -->
-
-
-
-
-<?php require_once("inc/footer.php");?>
