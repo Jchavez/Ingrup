@@ -13,8 +13,9 @@
 	<div id="wrapper_content_tabs">
 		<div class="container">
 			<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#desarrolloSosteniblie" role="tab" data-toggle="tab">Desarrollo Sostenible</a></li>
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#video" role="tab" data-toggle="tab">Video</a></li>
+				<li role="presentation"><a href="#desarrolloSosteniblie" role="tab" data-toggle="tab">Desarrollo Sostenible</a></li>
 				<li role="presentation"><a href="#3Rs" role="tab" data-toggle="tab">3R's</a></li>
 				<li role="presentation"><a href="#comoPuedoReciclar" role="tab" data-toggle="tab">¿C&oacute;mo puedo reciclar?</a></li>
 				<li role="presentation"><a href="#materialesQueReciclamos" role="tab" data-toggle="tab">Materiales que reciclamos</a></li>
@@ -22,7 +23,25 @@
 
 			<!-- Tab panes -->
 			<div class="tab-content">
-				<div role="tabpanel" class="tab-pane active" id="desarrolloSosteniblie">
+				<div role="tabpanel" class="tab-pane active" id="video">
+					<section>
+						<div class="row">
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-6">
+								<video width="100%" height="100%" controls id="videoIngrupES">
+									<source src="media/sustainability/recicla_spanish.mp4" type="video/mp4">
+									<source src="media/sustainability/recicla_spanish.webm" type="'video/webm">
+									<source src="media/sustainability/recicla_spanish.ogv" type="video/ogg">
+									Your browser does not support the video tag.
+								</video>							
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+					</section>
+				</div>
+				<div role="tabpanel" class="tab-pane" id="desarrolloSosteniblie">
 					<section>
 						<div class="row">
 							<div class="col-md-1">

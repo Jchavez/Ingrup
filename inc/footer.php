@@ -13,14 +13,19 @@
 			</div>
 			<div class="row">
 				<div class="col-md-12">
-					<p>Copyright &copy; 2014 INGRUP - All Rights Reserved</p>
+					<p>Copyright &copy; 2015 INGRUP - All Rights Reserved</p>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!-- end - FOOTER -->
 
+
+
 <!-- JQuery -->
+<!--
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+-->
 <script src="<?php echo $root;?>js/jquery-1.11.1.min.js"  type="text/javascript"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="<?php echo $root;?>js/bootstrap.min.js"></script> 
@@ -29,6 +34,11 @@
 <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
 <script type="text/javascript" src="<?php echo $root;?>lib/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
 <script type="text/javascript" src="<?php echo $root;?>lib/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+<!-- Product Colorizer jQuery Plugin -->
+<!--
+<script type="text/javascript" src="<?php echo $root;?>js/raphael-min.js"></script>
+<script type="text/javascript" src="<?php echo $root;?>js/jquery.productColorizer.pack.js"></script>
+-->
 <!-- Compiled by: jchavez -->
 <script src="<?php echo $root;?>js/compiled.js"></script> 
 <script>

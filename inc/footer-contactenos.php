@@ -5,6 +5,17 @@
 				</div>
 				<div class="col-md-5" id="contact_form">
 					<form role="form">
+						<?php
+						if ($this->data['productName']!=""){
+							//echo '<input type="hidden" name="nombreDelProducto" id="nombreDelProducto" value="'.$this->data['productName'].'">';
+						?>
+						<div class="form-group">
+							<textarea class="form-control required clean" rows="3" id="nombreDelProducto">Estoy interesado en el siguiente producto: <?php echo $this->data['productName']; ?>
+							</textarea>
+						</div>
+						<?php 
+							}
+						?>
 						<div class="form-group">
 							<label>De: (*)</label>
 							<input type="text" class="form-control required clean" id="name" placeholder="Nombre Completo">
@@ -44,12 +55,14 @@
 							<textarea class="form-control required clean" rows="3" id="message"></textarea>
 						</div>
 						<div class="form-group">
-							<img src="lib/captcha/captcha.php" border="0" alt="Ingrup Security" class="img-responsive" />
+							<?php
+								echo '<img src="'.$GLOBALS["root"].'lib/captcha/captcha.php" border="0" alt="Ingrup Security" class="img-responsive" />';
+							?>
 						</div>
 						<div class="form-group">
 							<input type="text" class="form-control required clean" name="code" id="code" placeholder="Código de Seguridad" />
 						</div>
-						<div class="form-group">
+						<div class="form-group">							
 							<input type="button" value="Enviar" class="btn btn-default" onclick="javascript:checkForm();" />
 						</div>						
 					</form>

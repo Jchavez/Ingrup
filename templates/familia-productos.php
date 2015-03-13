@@ -1,8 +1,18 @@
 <?php 
 	require_once("inc/header-productos.php");
-?>
 
-			<!--<h1 class="textCenter blue">PRODUCTOS</h1>-->
+	echo '<div class="header-catalog-products">
+		   <img src="'.$GLOBALS["root"].'img/headerProductos.jpg">';
+?>
+		<div class="menu-catalog-products">
+			<a href="catalogo-de-productos" alt="Regresar Catalogo de Productos" class="item">
+				<span>Productos</span>
+			</a>
+		</div>
+	</div>
+	<br /><br />
+	<div id="wrapper_content">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-1"></div>
 				<div class="col-md-10">

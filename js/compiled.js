@@ -13,7 +13,53 @@ jQuery(document).ready(function() {
 		parallaxBgFreeze:"on",
 		parallaxLevels:[7,4,3,2,5,4,3,2,1,0]
 	});
+
+	$("#switchVideoSpanish").hide();
+	$("#videoIngrupEN").hide();
+
+	$("#switchVideoEnglish").click(function() {
+		$("#switchVideoSpanish").show();
+		$("#videoIngrupES").hide();
+		$("#videoIngrupEN").show();
+		$(this).hide();
+	});
+
+	$("#switchVideoSpanish").click(function() {
+		$("#switchVideoEnglish").show();
+		$("#videoIngrupEN").hide();
+		$("#videoIngrupES").show();
+		$(this).hide();
+	});
+
+	$("#openPlane").on("click", function() {
+		$("#modalPlane").modal('show');
+	});
+
+	//$('.product-preview').productColorizer();
+
+	$('#videoIngrup').modal();
+	//document.getElementById('videoId').play();
+
+	setTimeout(function(){
+		$("#videoIngrup").hide();
+	}, 15000);
+	
+	
+	$("#add_quote").click(function(){
+		//alert("hola");
+	});
+	
+	$("#ingenio,#innovacion,#infinito,#industrial").hover(
+	function(){
+		$(this).children("a.big_title").hide();
+		$(this).children("div.content_user").show();
+	},function(){
+		$(this).children("div.content_user").hide();
+		$(this).children("a.big_title").show();
+	});
+    
 });
+
 /*==Clen Form==*/
 function clean(){
 	jQuery(".clean").each(function(index){
@@ -119,12 +165,13 @@ if(one && two){
 	var country = jQuery('#country').val();
 	var market = jQuery('#market').val();
 	var message = jQuery('#message').val();
+	var nombreDelProducto = jQuery('#nombreDelProducto').val();
 
 	//$('#contact_form').html('<div style="text-align:center;"><img src="img/ajax-loader.gif" /></div>');
 	jQuery.ajax({
 	   type: "POST", 
 	   url: "lib/sendform.php",
-	   data: 'pname='+name+'&pemail='+email+'&psubject='+subject+'&pcountry='+country+'&pmarket='+market+'&pmessage='+message,
+	   data: 'pname='+name+'&pemail='+email+'&psubject='+subject+'&pcountry='+country+'&pmarket='+market+'&pmessage='+message+'&pnombreDelProducto='+nombreDelProducto,
 	   success: function(msg){
 		   if(msg){				 
 				 swal({

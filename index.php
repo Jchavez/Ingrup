@@ -33,22 +33,15 @@ $app->get('/conozcanos', function () use ($app) {
 	);
 });
 
-$app->get('/familia-productos', function () use ($app) {
-	$db = connect_db();
-	$result = $db->query( 'SELECT id, name FROM family_products;' );
-	while ( $row = $result->fetch_array(MYSQLI_ASSOC) ) {
-		$data[] = $row;
-	}	
-
-	$app->render('familia-productos.php', array(
-			'page_title' => "Productos | INGRUP",
-			'data' => $data
+$app->get('/catalogo-de-productos', function () use ($app) {
+	$app->render('catalogo-de-productos.php', array(
+			'page_title' => "Catalogo de Productos | INGRUP"
 		)
 	);
 });
 
-$app->get('/trabaje-con-nosotros', function () use ($app) {
-	$app->render('trabaje-con-nosotros.php', array(
+$app->get('/empleo', function () use ($app) {
+	$app->render('empleo.php', array(
 			'page_title' => "Trabaje con Nosotros | INGRUP"
 		)
 	);
@@ -71,7 +64,23 @@ $app->get('/contactenos', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'nombreDelProducto'=>''
+	));
+});
+
+$app->get('/contactenos/interes/:producto', function ($producto) use ($app) {
+	$array = array(
+		"planta" =>	
+			array(
+				"title"=>"",
+				"telefono" => "+(502) 2326-5700",
+				"direccion" => "Av. Petapa y 56 Calle, zona 12, Ciudad de Guatemala, Guatemala")
+		);
+	$app->render('contactenos.php', array(
+		'page_title' => "Contactenos | INGRUP",
+		'data' => $array,
+		'productName'=>$producto
 	));
 });
 
@@ -90,7 +99,8 @@ $app->get('/contactenos-plantas-mexico', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -114,7 +124,8 @@ $app->get('/contactenos-plantas-guatemala', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -128,7 +139,8 @@ $app->get('/contactenos-plantas-honduras', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -142,7 +154,8 @@ $app->get('/contactenos-plantas-nicaragua', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -156,7 +169,8 @@ $app->get('/contactenos-plantas-costa-rica', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -185,7 +199,8 @@ $app->get('/contactenos-oficinas-guatemala', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -199,7 +214,8 @@ $app->get('/contactenos-oficinas-elsalvador', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -213,7 +229,8 @@ $app->get('/contactenos-oficinas-honduras', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -227,7 +244,8 @@ $app->get('/contactenos-oficinas-panama', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -241,7 +259,8 @@ $app->get('/contactenos-oficinas-peru', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
@@ -255,16 +274,26 @@ $app->get('/contactenos-oficinas-republica-dominicana', function () use ($app) {
 		);
 	$app->render('contactenos.php', array(
 		'page_title' => "Contactenos | INGRUP",
-		'data' => $array
+		'data' => $array,
+		'productName'=>''
 	));
 });
 
-/*
-$app->get('/categoria-productos/:id', function ($id) use ($app) {
-	$app->view()->setData(array('id' => $id));
-	$app->render('categoria-productos.php');
+/*********************CATALOGO DE PRODUCTOS******************************/
+
+$app->get('/familia-productos', function () use ($app) {
+	$db = connect_db();
+	$result = $db->query( 'SELECT id, name FROM family_products ORDER BY `family_products`.`name` ASC;' );
+	while ( $row = $result->fetch_array(MYSQLI_ASSOC) ) {
+		$data[] = $row;
+	}	
+
+	$app->render('familia-productos.php', array(
+			'page_title' => "Familia de Productos | INGRUP",
+			'data' => $data
+		)
+	);
 });
-*/
 
 $app->get('/categoria-productos/:id', function ($id) use ($app) {
 	$db = connect_db();
@@ -281,25 +310,35 @@ $app->get('/categoria-productos/:id', function ($id) use ($app) {
 	);
 });
 
+
+
 $app->get('/productos/:id', function ($id) use ($app) {
 	$db = connect_db();
 	$textQuery="select id, name, main_image from products where category_products_id=".$id;
 	$result = $db->query( $textQuery );
 
-
-	
-
 	if($result->num_rows==0){
 		//ENVIAR INFORMACION A PRODUCTOS
-		die();
-
+		$textQuery="select id, name, description, main_image from category_products where category_products.id=".$id;
+		$result = $db->query( $textQuery );
+		while ($row = $result->fetch_array()) {
+			$data[] = $row;
+		}	
+		$app->render('producto.php', array(
+			'page_title' => "Productos | INGRUP",
+			'data' => $data,
+			'folderImages'=>'category_products',
+			'table'=>'category_products'
+		));
+		//die();
 	}else{
 		while ($row = $result->fetch_array()) {
 			$data[] = $row;
 		}	
 		$app->render('productos.php', array(
 			'page_title' => "Productos | INGRUP",
-			'data' => $data
+			'data' => $data/*,
+			'linkCategory'=>$req*/
 		));
 	}
 	
@@ -316,13 +355,131 @@ $app->get('/producto/:id', function ($id) use ($app) {
 		}	
 		$app->render('producto.php', array(
 			'page_title' => "Producto | INGRUP",
+			'data' => $data,
+			'folderImages'=>'products'
+		));
+
+});
+
+$app->get('/industrias', function () use ($app) {
+	$db = connect_db();
+	$result = $db->query( 'SELECT * FROM industries ORDER BY `industries`.`name` ASC;' );
+	while ( $row = $result->fetch_array(MYSQLI_ASSOC) ) {
+		$data[] = $row;
+	}	
+
+	$app->render('industrias.php', array(
+			'page_title' => "Industrias | INGRUP",
+			'data' => $data
+		)
+	);
+});
+
+
+$app->get('/familia-industrias/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="SELECT * FROM family_industries  where industries_id=".$id;
+	$result = $db->query($textQuery);
+	while ( $row = $result->fetch_array(MYSQLI_ASSOC) ) {
+		$data[] = $row;
+	}	
+
+	$app->render('familia-industrias.php', array(
+			'page_title' => "Familia Industrias | INGRUP",
+			'data' => $data
+		)
+	);
+});
+
+$app->get('/categoria-industrias/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select * from category_industries where family_industries_id=".$id;
+	$result = $db->query( $textQuery );
+	while ( $row = $result->fetch_array() ) {
+		$data[] = $row;
+	}	
+
+	$app->render('categoria-industrias.php', array(
+			'page_title' => "Categoria de Productos | INGRUP",
+			'data' => $data
+		)
+	);
+});
+
+$app->get('/productos-industrias/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select * from products where category_industries_id=".$id;
+	$result = $db->query( $textQuery );
+
+	if($result->num_rows==0){
+		//ENVIAR INFORMACION A PRODUCTOS
+		$textQuery="select * from category_industries where category_industries.id=".$id;
+		$result = $db->query( $textQuery );
+		while ($row = $result->fetch_array()) {
+			$data[] = $row;
+		}	
+		$app->render('producto.php', array(
+			'page_title' => "Productos | INGRUP",
+			'data' => $data,
+			'folderImages'=>'category_industries'
+		));
+		//die();
+	}else{
+		while ($row = $result->fetch_array()) {
+			$data[] = $row;
+		}	
+		$app->render('productos.php', array(
+			'page_title' => "Productos | INGRUP",
+			'data' => $data/*,
+			'linkCategory'=>$req*/
+		));
+	}
+});
+
+$app->get('/noticias', function () use ($app) {
+	$db = connect_db();
+	$result = $db->query( 'SELECT * FROM news ORDER BY `news`.`date_publication` DESC;' );
+	while ( $row = $result->fetch_array(MYSQLI_ASSOC) ) {
+		$data[] = $row;
+	}	
+
+	$app->render('noticias.php', array(
+			'page_title' => "Noticias | INGRUP",
+			'data' => $data
+		)
+	);
+});
+
+$app->get('/noticia/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select * from news where id=".$id;
+	$result = $db->query( $textQuery );
+
+		while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+			$data[] = $row;
+		}	
+		$app->render('noticia.php', array(
+			'page_title' => "Noticia | INGRUP",
 			'data' => $data
 		));
 
 });
 
+$app->get('/ficha-tecnica/:id', function ($id) use ($app) {
+	$db = connect_db();
+	$textQuery="select * from products where id=".$id;
+	$result = $db->query( $textQuery );
 
+		while ($row = $result->fetch_array(MYSQLI_ASSOC)) {
+			$data[] = $row;
+		}	
+		$app->render('ficha-tecnica.php', array(
+			'page_title' => "Ficha Técnica | INGRUP",
+			'data' => $data,
+			'folderImages'=>'products/'
+		));
 
+});
    
 
 

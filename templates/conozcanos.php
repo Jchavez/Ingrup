@@ -13,15 +13,48 @@
 	<div id="wrapper_content_tabs">
 		<div class="container">
 			<!-- Nav tabs -->
-				<ul class="nav nav-tabs" role="tablist">
-				<li role="presentation" class="active"><a href="#inicios" role="tab" data-toggle="tab">Inicios</a></li>
+			<ul class="nav nav-tabs" role="tablist">
+				<li role="presentation" class="active"><a href="#video" role="tab" data-toggle="tab">Video</a></li>
+				<li role="presentation"><a href="#inicios" role="tab" data-toggle="tab">Inicios</a></li>
 				<li role="presentation"><a href="#politicaDeCalidad" role="tab" data-toggle="tab">Pol&iacute;tica de Calidad</a></li>
 				<li role="presentation"><a href="#filosofia" role="tab" data-toggle="tab">Filosof&iacute;a</a></li>
 			</ul>
 
 			<!-- Tab panes -->
 			<div class="tab-content">
-				<div role="tabpanel" class="tab-pane active" id="inicios">
+				<div role="tabpanel" class="tab-pane active" id="video">
+					<section>
+						<div class="row">
+							<div class="col-md-3">
+							</div>
+							<div class="col-md-6">
+								<video width="100%" height="100%" controls id="videoIngrupES">
+									<source src="media/aboutUs/ingrup_spanish.mp4" type="video/mp4">
+									<source src="media/aboutUs/ingrup_spanish.webm" type="'video/webm">
+									<source src="media/aboutUs/ingrup_spanish.ogv" type="video/ogg">
+									Your browser does not support the video tag.
+								</video>
+
+								<video width="100%" height="100%" controls id="videoIngrupEN">
+									<source src="media/aboutUs/ingrup_english.mp4" type="video/mp4">
+									<source src="media/aboutUs/ingrup_english.webm" type="'video/webm">
+									<source src="media/aboutUs/ingrup_english.ogv" type="video/ogg">
+									Your browser does not support the video tag.
+								</video>
+								<p>&nbsp;</p>
+								<div style="text-align:center;">
+									<a href="#" id="switchVideoEnglish">VIDEO EN INGLES</a>
+									<a href="#" id="switchVideoSpanish">VIDEO EN ESPAÑOL</a>
+								</div>
+								
+							</div>
+							<div class="col-md-3">
+							</div>
+						</div>
+					</section>
+				</div>
+
+				<div role="tabpanel" class="tab-pane" id="inicios">
 					<section>
 						<div class="row">
 							<div class="col-md-1">

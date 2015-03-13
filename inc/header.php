@@ -25,6 +25,10 @@
 	<link href="<?php echo $root;?>css/style.css" rel="stylesheet" type="text/css">
 	<!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
 	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>lib/rs-plugin/css/settings.css" media="screen" />	
+	<!-- Product Colorizer jQuery Plugin -->
+	<!--
+	<link rel="stylesheet" type="text/css" href="<?php echo $root;?>css/jquery.productColorizer.css" media="screen" />	
+	-->
 	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 9]>
@@ -35,10 +39,24 @@
 
 <body>
 	<!-- HEADER -->
-	<div id="wrapper_header">
+	<div id="wrapper_header" itemscope itemtype="http://schema.org/LocalBusiness">
 		<div class="container">	
-			<a href="index.php"><img src="<?php echo $root;?>img/logo.jpg" alt="INGRUP | Fabricamos Confianza desde 1974s"></a>
+			<a href="<?php echo $root;?>index.php"><img itemprop="image" class="logotipo img-responsive" src="<?php echo $root;?>img/logo.jpg" alt="INGRUP | Fabricamos Confianza desde 1974s"></a>
 		</div>
 	</div>
 	<!-- end - HEADER -->
+
+<!--schema.org-->	
+<meta itemprop="url" content="http://ingruplatam.com/">
+<meta itemprop="name" content="Ingrup">
+<span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<meta itemprop="streetAddress" content="Avenida Petapa y 56 Calle Zona 12.">
+<meta itemprop="addressLocality" content="Petapa / Guatemala">
+<meta itemprop="addressCountry" content="Guatemala">
+<meta itemprop="postalCode" content="01012"></span>
+<meta itemprop="telephone" content="23265600">
+<span itemprop="openingHoursSpecification" itemscope itemtype="http://schema.org/OpeningHoursSpecification">
+<span itemprop="dayOfWeek" itemscope itemtype="http://schema.org/DayOfWeek">
+<meta itemprop="name" content="08:00–05:00"></span></span>
+<meta itemprop="email" content="info@ingruplatam.com">
 

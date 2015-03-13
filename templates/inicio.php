@@ -1,3 +1,27 @@
+<!-- Modal -->
+<!--
+<div class="modal fade" id="videoIngrup" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">INGRUP</h4>
+      </div>
+      <div class="modal-body">
+		<video width="100%" height="100%" controls id="videoId"  autoplay="autoplay">
+			<source src="media/introduction/intro.mp4" type="video/mp4">
+			<source src="media/introduction/intro.webm" type="'video/webm">
+			<source src="media/introduction/intro.ogv" type="video/ogg">
+			Your browser does not support the video tag.
+		</video>
+      </div>
+      <div class="modal-footer">
+      </div>
+    </div>
+  </div>
+</div>
+-->
+
 <!-- SLIDER -->
 <div id="wrapper_slider">
 	<div class="tp-banner-container">
@@ -51,7 +75,7 @@
 						data-endelementdelay="0.1"
 						data-endspeed="300"
 						style="background-color: rgba(0,0,0,0.5);">
-						EQUIPO INTEGRO, <br/>MOTIVADO Y COMPROMETIDO
+						Equipo <strong style="color:#d2d2d2;">IN</strong>tegro, <br/>Motivado y Comprometido
 					</div> 
 				</li>
 
@@ -74,7 +98,7 @@
 						data-endelementdelay="0.1"
 						data-endspeed="300"
 						style="z-index: 4; max-width: auto; max-height: auto; white-space: nowrap;background-color: rgba(0,0,0,0.5);">
-						40 AÑOS INNOVANDO
+						40 Años <strong style="color:#000;">IN</strong>novando
 					</div> 
 				</li>
 
@@ -209,17 +233,32 @@
 	<div id="wrapper_content">
 		<div class="container">
 			<div class="row">
+				<div class="col-md-12">&nbsp;</div>
+			</div>
+			<div class="row">
+				<div class="col-md-1">&nbsp;</div>
 				<div class="col-md-7">
-					<h2 class="textCenter">Fabricamos Confianza desde 1974</h2>
-					<h4 class="textCenter">
-						Somos el proveedor de empaques más confiable. 
-						<br/>Fabricamos envases, embalajes, etiquetas,
-						<br/>impresiones, materiales plásticos reciclados
-						<br/>amigables con el medio ambiente y una amplia
-						<br/>gama de productos para el hogar.
-					</h4> 
+					<div class="intro">
+						<div class="bg_intro">
+							<div class="row">
+								<div class="col-md-5">
+									<img src="img/boxIngrup.png" alt="INGRUP" class="img-responsive">
+								</div>
+								<div class="col-md-7">
+									<strong>Fabricamos Confianza desde 1974</strong>
+									<p>
+										Somos el proveedor de empaques más confiable. 
+										<br/>Fabricamos envases, embalajes, etiquetas,
+										<br/>impresiones, materiales plásticos reciclados
+										<br/>amigables con el medio ambiente y una amplia
+										<br/>gama de productos para el hogar.
+									</p>
+								</div>
+							</div>
+						</div>					
+					</div> 
 				</div>
-				<div class="col-md-5">
+				<div class="col-md-3">
 					<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
@@ -281,6 +320,7 @@
 						</a>
 					</div>
 				</div>
+				<div class="col-md-1">&nbsp;</div>
 			</div>
 		</div>
 	</div>

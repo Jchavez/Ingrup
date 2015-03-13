@@ -3,9 +3,6 @@
 	<div id="wrapper_content">
 		<div class="container">
 			<h1 class="textCenter blue">CONT&Aacute;CTENOS</h1>
-			<?php 
-				//print_r($this->data['data']);
-			?>
 			<div class="row">
 				<div class="col-md-2">
 				</div>

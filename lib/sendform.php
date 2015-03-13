@@ -56,6 +56,10 @@ $message = '<table style="text-align: center; width: 465px; height: 575px;" bord
 <td style="text-align: left;"><strong>Mensaje:</strong></td>
 <td style="text-align: left;">'.$_POST['pmessage'].'</td>
 </tr>
+<tr style="text-align: left;">
+<td style="text-align: left;"><strong>Interesado en Producto:</strong></td>
+<td style="text-align: left;">'.$_POST['pnombreDelProducto'].'</td>
+</tr>
 </tbody>
 </table>'; 
 /*asesores@grupoidc.com*/ 

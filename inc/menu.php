@@ -17,20 +17,54 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<?php
-							echo 
-							'<li><a href="'.$GLOBALS["root"].'">Inicio</a></li>
-							<li><a href="'.$GLOBALS["root"].'conozcanos">Con&oacute;zcanos</a></li>
-							<li class=""><a href="'.$GLOBALS["root"].'familia-productos">Productos</a></li>
-							<li class=""><a href="'.$GLOBALS["root"].'trabaje-con-nosotros">Trabaje con Nosotros</a></li>
-							<li class=""><a href="'.$GLOBALS["root"].'sostenibilidad">Sostenibilidad</a></li>
-							<li class=""><a href="'.$GLOBALS["root"].'contactenos">Cont&aacute;ctenos</a></li>';
+							$inicio="";
+							$conozcanos="";
+							$catalogodeproductos="";
+							$sostenibilidad="";
+							$noticias="";
+							$trabajeconnosotros="";
+							$contactenos="";
+
+							$currentPage= str_replace($GLOBALS["root"],"",$_SERVER['REQUEST_URI']);
+
+							switch ($currentPage){
+								case 'conozcanos':
+									$conozcanos="active";
+									break;
+								case 'catalogo-de-productos':
+									$catalogodeproductos="active";
+									break;
+								case 'sostenibilidad':
+									$sostenibilidad="active";
+									break;
+								case 'noticias':
+									$noticias="active";
+									break;
+								case 'empleo':
+									$trabajeconnosotros="active";
+									break;
+								case 'contactenos':
+									$contactenos="active";
+									break;
+								/*default:
+									$inicio="active";*/
+							}
+							echo '<li class="'.$inicio.'"><a href="'.$GLOBALS["root"].'">Inicio</a></li>';
+							echo '<li class="'.$conozcanos.'"><a href="'.$GLOBALS["root"].'conozcanos">Con&oacute;zcanos</a></li>';
+							echo '<li class="'.$catalogodeproductos.'"><a href="'.$GLOBALS["root"].'catalogo-de-productos">Productos</a></li>';
+							echo '<li class="'.$sostenibilidad.'"><a href="'.$GLOBALS["root"].'sostenibilidad">Sostenibilidad</a></li>';
+							echo '<li class="'.$noticias.'"><a href="'.$GLOBALS["root"].'noticias">Noticias</a></li>';
+							echo '<li class="'.$trabajeconnosotros.'"><a href="'.$GLOBALS["root"].'empleo">Int&eacute;grate</a></li>';
+							echo '<li class="'.$contactenos.'"><a href="'.$GLOBALS["root"].'contactenos">Cont&aacute;ctenos</a></li>';
 							?>
 						</ul>
+						<!--
 						<form class="navbar-form navbar-left" role="search">
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Búsqueda">
 							</div>
 						</form>
+						-->
 					</div>
 				</div>
 				</nav>

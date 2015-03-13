@@ -1,6 +1,24 @@
 <?php 
 	require_once("inc/header-productos.php");
+
+	echo '<div class="header-catalog-products">
+		   <img src="'.$GLOBALS["root"].'img/headerProductos.jpg">';
 ?>
+		<div class="menu-catalog-products">
+			<?php 
+			echo
+			'<a href="'.$GLOBALS["root"].'catalogo-de-productos" alt="Regresar Catalogo de Productos" class="item">
+				<span>Productos</span>
+			</a>
+			<a href="'.$GLOBALS["root"].'familia-productos" alt="Regresar a Productos" class="item">
+				<span>Familias</span>
+			</a>';
+			?>
+		</div>
+	</div>
+	<br /><br />
+	<div id="wrapper_content">
+		<div class="container">
 			<div class="row">
 				<div class="col-md-2"></div>
 				<div class="col-md-8">
